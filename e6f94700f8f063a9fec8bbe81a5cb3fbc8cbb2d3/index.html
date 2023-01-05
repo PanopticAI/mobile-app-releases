@@ -33,7 +33,8 @@
             <ul class="mb-4">
               <li v-for="text in r.issues">{{ text }}</li>
             </ul>
-            <a class="btn btn-primary" :href=" 'itms-services://?action=download-manifest&amp;url=https://github.com/' + githubRepo + '/releases/download/' + 'vitals-mobile-' + r.version + '-' + r.buildNumber + '/' + r.plist ">Install</a>
+            <a class="btn btn-primary" :href=" 'itms-services://?action=download-manifest&amp;url=https://github.com/' + githubRepo + '/releases/download/' + 'vitals-mobile-' + r.version + '-' + r.buildNumber + '/' + r.plist ">Install iOS</a>
+            <a class="btn btn-primary" :href=" 'https://github.com/' + githubRepo + '/releases/download/' + 'vitals-mobile-' + r.version + '-' + r.buildNumber + '/' + r.apk ">Install Android</a>
           </div>
         </div>
       </div>
