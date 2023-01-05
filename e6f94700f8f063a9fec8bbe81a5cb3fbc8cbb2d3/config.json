@@ -1,0 +1,11 @@
+{
+    "appName": "Vitals™ Mobile App",
+    "githubOwner": "PanopticAI",
+    "githubRepo": "mobile-app-releases",
+    "githubClient": "11acc7f83903d6ecb7bd",
+    "githubSecret": "e8e14934f46835cac911f5c48092d9b7db8cb11c",
+    "ipa": "Vitals.Mobile.ipa",
+    "apk": "Vitals.Mobile.apk",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-"
+}

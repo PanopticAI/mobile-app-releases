@@ -5,6 +5,7 @@ var path = require('path');
 var uploader = require('github-ipa-uploader');
 var opn = require('opn');
 const program = require('commander');
+const config = require('./config.json');
 
 function updateReleasesJson(version, build, plist) {
 
@@ -74,8 +75,8 @@ function githubOauth() {
     if (!fs.existsSync(tokenFile)) {
 
       var githubOAuth = require('github-oauth')({
-        githubClient: 'ae455981dc2aa41e2b3e',
-        githubSecret: '24a6c88a02c0b17e14bf953c9eef3ea8016d2bc2',
+        githubClient: config.githubClient,
+        githubSecret: config.githubSecret,
         baseURL: 'http://localhost',
         loginURI: '/login',
         callbackURI: '/callback',
@@ -135,9 +136,9 @@ program.parse(process.argv);
 // console.log(program);
 
 if (program.mode === 'dev') {
-  ipaName = 'ChineseDailyBreadDev.ipa';
+  ipaName = config.ipa;
 } else if (program.mode === 'adhoc') {
-  ipaName = 'ChineseDailyBreadAdhoc.ipa';
+  ipaName = config.ipa;
 } else {
   program.help();
   process.exit(-1);
@@ -148,13 +149,14 @@ githubOauth().then( token => {
 
   var options = {
     token: token,
-    owner: 'eddy-lau',
-    repo: 'cdb-ota',
+    owner: config.githubOwner,
+    repo: config.githubRepo,
     binaries: [{
-      path: path.join(__dirname,'..','ChineseDailyBread', ipaName),
-      iconURL: 'https://eddy-lau.github.io/cdb-ota/AppIcon-120x120.png'
+      path: path.join(__dirname, ipaName),
+      iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
     }],
-    tagPrefix: 'cdb'
+    tagPrefix: config.tagPrefix,
+    tagDelimiter: config.tagDelimiter
   };
 
   return uploader.upload(options);

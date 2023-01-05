@@ -1,11 +1,20 @@
 var app = new Vue({
   el: '#app',
   data: {
-    appName: 'Vitals™ Mobile App',
-    githubRepo: 'PanopticAI/mobile-app-releases',
+    config: {},
     releases: []
   }
 });
+
+$.ajax({
+  dataType: "json",
+  url: "config.json",
+  mimeType: "application/json",
+  success: function(data) {
+    app.config = data
+  }
+
+})
 
 $.ajax({
   dataType: "json",

@@ -1,1 +1,4 @@
 node_modules
+*.ipa
+*.apk
+.github-token
