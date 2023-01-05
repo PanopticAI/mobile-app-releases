@@ -1,28 +1,46 @@
 <html>
   <head>
     <meta name = "viewport" content = "width = device-width">
+    <link rel="apple-touch-icon" href="OTA-120.png">
     <meta charset="UTF-8">
     <title>Vitals™ Mobile App</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Vitals™ Mobile App</h1>
-    <hr/>
-    <p>
-      <h2>Release 0.0.1</h2>
-      <ul>
-        <li><a href="itms-services://?action=download-manifest&amp;url=https://github.com/PanopticAI/mobile-app-releases/releases/download/vitals-mobile-0.0.1-1/manifest.plist">Install iOS App</a></li>
-        <li><a href="https://github.com/PanopticAI/mobile-app-releases/releases/download/vitals-mobile-0.0.1-1/Vitals.Mobile.apk">Install Android App</a></li>
-      </ul>
-      <h4>Changes</h4>
-      <ul>
-        <li>Inital Release</li>
-      </ul>
-      <h4>Known Issues</h4>
-      <ul>
-        <li>Sometimes the health result page is blank, the workaround is to do scanning again.</li>
-      </ul>
-    </p>
-    <hr/>
-  </body>
-</html>
 
+    <div id="app">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">{{ appName }}</a>
+      </nav>
+
+      <div v-if="releases.length > 0" class="container">
+
+        <div v-for="r in releases" class="card mx-4 my-4">
+          <div class="card-header">
+              Release {{ r.version }}-{{ r.buildNumber }}
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-muted">Changes</h5>
+            <ul class="mb-4">
+              <li v-for="text in r.changes">{{ text }}</li>
+            </ul>
+            <h5 class="card-title text-muted">Known Issues</h5>
+            <ul class="mb-4">
+              <li v-for="text in r.issues">{{ text }}</li>
+            </ul>
+            <a class="btn btn-primary" :href=" 'itms-services://?action=download-manifest&amp;url=https://github.com/' + githubRepo + '/releases/download/' + 'vitals-mobile-' + r.version + '-' + r.buildNumber + '/' + r.plist ">Install</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+  </body>
+</body>

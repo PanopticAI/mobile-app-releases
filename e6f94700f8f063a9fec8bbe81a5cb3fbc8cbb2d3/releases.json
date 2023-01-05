@@ -1,0 +1,13 @@
+[
+  {
+    "version": "0.0.1",
+    "buildNumber": "1",
+    "plist": "manifest.plist",
+    "changes": [
+      "Initial Release"
+    ],
+    "issues": [
+      "Sometimes the health result page is blank, the workaround is to do scanning again."
+    ]
+  }
+]
