@@ -2,7 +2,7 @@
   {
     "version": "0.0.1",
     "buildNumber": "1",
-    "plist": "manifest.plist",
+    "plist": "Vitals.Mobile.plist",
     "apk": "Vitals.Mobile.apk",
     "changes": [
       "Initial Release"
