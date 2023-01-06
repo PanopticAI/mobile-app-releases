@@ -1,14 +1,6 @@
 [
   {
     "version": "0.0.1",
-    "buildNumber": "2",
-    "plist": "Vitals.Mobile.plist",
-    "changes": [
-      "Initial Release"
-    ]
-  },
-  {
-    "version": "0.0.1",
     "buildNumber": "1",
     "plist": "Vitals.Mobile.plist",
     "apk": "Vitals.Mobile.apk",

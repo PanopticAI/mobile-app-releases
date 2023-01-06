@@ -7,7 +7,7 @@ var opn = require('opn');
 const program = require('commander');
 const config = require('./config.json');
 
-function updateReleasesJson(version, build, plist) {
+function updateReleasesJson(version, buildNumber, plist) {
 
   var releasesFilePath = path.join(__dirname, 'releases.json');
 
@@ -32,7 +32,7 @@ function updateReleasesJson(version, build, plist) {
 
     var existingRelease = releases.find( release => {
       return release.version == version &&
-             release.buildNumber == build;
+             release.buildNumber == buildNumber;
     });
 
     if (existingRelease) {
@@ -43,10 +43,11 @@ function updateReleasesJson(version, build, plist) {
     var latestRelease = releases[0];
 
     var newRelease = {
-      version: version,
-      buildNumber: build,
-      plist: plist,
-      changes: latestRelease ? latestRelease.changes : []
+      version,
+      buildNumber,
+      plist,
+      changes: latestRelease ? latestRelease.changes : [],
+      issues: latestRelease ? latestRelease.issues : []
     };
 
     releases.splice(0, 0, newRelease);
@@ -151,10 +152,15 @@ githubOauth().then( token => {
     token: token,
     owner: config.githubOwner,
     repo: config.githubRepo,
-    binaries: [{
-      path: path.join(__dirname, ipaName),
-      iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
-    }],
+    binaries: [
+      {
+        path: path.join(__dirname, ipaName),
+        iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
+      },
+      {
+        path: path.join(__dirname, config.apk)
+      }
+    ],
     tagPrefix: config.tagPrefix,
     tagDelimiter: config.tagDelimiter
   };
