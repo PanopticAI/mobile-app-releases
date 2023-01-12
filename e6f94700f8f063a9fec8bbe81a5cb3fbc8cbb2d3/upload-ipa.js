@@ -46,6 +46,7 @@ function updateReleasesJson(version, buildNumber, plist) {
       version,
       buildNumber,
       plist,
+      apk: latestRelease.apk,
       changes: latestRelease ? latestRelease.changes : [],
       issues: latestRelease ? latestRelease.issues : []
     };

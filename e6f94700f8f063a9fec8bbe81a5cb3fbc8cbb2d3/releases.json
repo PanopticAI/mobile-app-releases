@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "buildNumber": "3",
     "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
     "changes": [
       "First Release",
       "For internal test and demo only"
