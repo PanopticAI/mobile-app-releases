@@ -1,14 +1,14 @@
 [
   {
-    "version": "0.0.1",
-    "buildNumber": "1",
+    "version": "0.1.0",
+    "buildNumber": "3",
     "plist": "Vitals.Mobile.plist",
-    "apk": "Vitals.Mobile.apk",
     "changes": [
-      "Initial Release"
+      "First Release",
+      "For internal test and demo only"
     ],
     "issues": [
-      "Sometimes the health result page is blank, the workaround is to do scanning again."
+      "The splash screen is not implemented yet."
     ]
   }
 ]
