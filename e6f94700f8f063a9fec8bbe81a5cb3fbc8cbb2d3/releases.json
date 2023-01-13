@@ -1,15 +1,15 @@
 [
   {
     "version": "0.1.0",
-    "buildNumber": "3",
+    "buildNumber": "5",
     "plist": "Vitals.Mobile.plist",
     "apk": "Vitals.Mobile.apk",
     "changes": [
-      "First Release",
+      "Implemented Vitals product UI design",
       "For internal test and demo only"
     ],
     "issues": [
-      "The splash screen is not implemented yet."
+      "Not all the UI design (e.g. splash screen) is implemented yet, will be added in next version."
     ]
   }
 ]
