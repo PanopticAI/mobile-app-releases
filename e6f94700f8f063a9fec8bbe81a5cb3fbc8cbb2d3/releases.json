@@ -1,5 +1,19 @@
 [
   {
+    "version": "1.0.0",
+    "buildNumber": "6",
+    "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
+    "changes": [
+      "Implemented Splash screen",
+      "UX improvements",
+      "Bug fixes"
+    ],
+    "issues": [
+      "No known issue in this version."
+    ]
+  },
+  {
     "version": "0.1.0",
     "buildNumber": "5",
     "plist": "Vitals.Mobile.plist",
