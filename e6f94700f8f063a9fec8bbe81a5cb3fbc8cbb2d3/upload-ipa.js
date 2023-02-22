@@ -130,22 +130,26 @@ function githubOauth() {
 }
 
 
-var ipaName;
 program
-  .option('-m, --mode <build-mode>', 'dev or adhoc');
+  .option('-m, --mode <build-mode>', 'dev or adhoc')
+  .option('-i, --ipa <ipa-file>', 'The iOS binary file')
+  .option('-a, --apk <apk-file>', 'The Android binary file')
+  .option('-n, --name <app-name>', 'The name of the app')
+  .option('-t, --tag <tag-prefix>', 'The prefix of git TAG')
+  .option('-d, --delimiter <tag-delimiter>', 'Optional. The delimiter of the tag, default is "_".')
 
 program.parse(process.argv);
-// console.log(program);
 
-if (program.mode === 'dev') {
-  ipaName = config.ipa;
-} else if (program.mode === 'adhoc') {
-  ipaName = config.ipa;
-} else {
+var ipaName = program.ipa;
+var apkName = program.apk;
+var appName = program.name;
+var tagDelimiter = program.delimiter;
+var tagPrefix = program.tag || '_';
+
+if (!ipaName || !apkName || !appName || !tagDelimiter) {
   program.help();
   process.exit(-1);
 }
-
 
 githubOauth().then( token => {
 
@@ -159,11 +163,11 @@ githubOauth().then( token => {
         iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
       },
       {
-        path: path.join(__dirname, config.apk)
+        path: path.join(__dirname, apkName)
       }
     ],
-    tagPrefix: config.tagPrefix,
-    tagDelimiter: config.tagDelimiter
+    tagPrefix,
+    tagDelimiter
   };
 
   return uploader.upload(options);
