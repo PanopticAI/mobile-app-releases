@@ -6,6 +6,8 @@
   "scripts": {
     "serve": "http-server",
     "start": "node upload-ipa.js -m adhoc",
+    "upload-vitals-mobile": "node upload-ipa.js  -m adhoc  -i Vitals.Mobile.ipa  -a Vitals.Mobile.apk  -n \"itals™ Mobile App\"  -t vitals-mobile  -d \"-\"",
+    "upload-flutter":       "node upload-ipa.js  -m adhoc  -i flutter_demo.ipa   -a flutter_demo.apk   -n \"Flutter Demo App\"   -t flutter-demo   -d \"-\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eddie Lau",

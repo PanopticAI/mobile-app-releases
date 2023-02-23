@@ -7,7 +7,7 @@ var opn = require('opn');
 const program = require('commander');
 const config = require('./config.json');
 
-function updateReleasesJson(version, buildNumber, plist) {
+function updateReleasesJson(version, buildNumber, plist, name) {
 
   var releasesFilePath = path.join(__dirname, 'releases.json');
 
@@ -43,6 +43,7 @@ function updateReleasesJson(version, buildNumber, plist) {
     var latestRelease = releases[0];
 
     var newRelease = {
+      name,
       version,
       buildNumber,
       plist,
@@ -143,10 +144,10 @@ program.parse(process.argv);
 var ipaName = program.ipa;
 var apkName = program.apk;
 var appName = program.name;
-var tagDelimiter = program.delimiter;
-var tagPrefix = program.tag || '_';
+var tagPrefix = program.tag;
+var tagDelimiter = program.delimiter || '_';
 
-if (!ipaName || !apkName || !appName || !tagDelimiter) {
+if (!ipaName || !apkName || !appName || !tagPrefix) {
   program.help();
   process.exit(-1);
 }
@@ -173,7 +174,7 @@ githubOauth().then( token => {
   return uploader.upload(options);
 }).then( result => {
   console.log('\n');
-  return updateReleasesJson(result.version, result.buildNumber, result.plist);
+  return updateReleasesJson(result.version, result.buildNumber, result.plist, appName);
 }).then( () => {
   process.exit();
 }).catch( error => {

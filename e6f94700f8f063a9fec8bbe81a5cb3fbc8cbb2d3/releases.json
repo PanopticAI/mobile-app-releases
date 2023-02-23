@@ -1,5 +1,19 @@
 [
   {
+    "name": "Flutter Demo App",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "plist": "flutter_demo.plist",
+    "apk": "Vitals.Mobile.apk",
+    "changes": [
+      "First release",
+      "Implemented blink detection feature"
+    ],
+    "issues": [
+      "No known issue in this version."
+    ]
+  },
+  {
     "name": "Vitals™ Mobile App",
     "version": "1.0.0",
     "buildNumber": "6",
