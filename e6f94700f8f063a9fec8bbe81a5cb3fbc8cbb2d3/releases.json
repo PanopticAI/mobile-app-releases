@@ -3,11 +3,13 @@
     "name": "Flutter Demo App",
     "version": "1.0.0",
     "buildNumber": "1",
+    "tagPrefix": "flutter-demo",
+    "tagDelimiter": "-",
     "plist": "flutter_demo.plist",
-    "apk": "Vitals.Mobile.apk",
+    "apk": "flutter_demo.apk",
     "changes": [
-      "First release",
-      "Implemented blink detection feature"
+      "First Internal Testing Release",
+      "Implemented Blink Detection"
     ],
     "issues": [
       "No known issue in this version."
@@ -19,6 +21,8 @@
     "buildNumber": "6",
     "plist": "Vitals.Mobile.plist",
     "apk": "Vitals.Mobile.apk",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
     "changes": [
       "Implemented Splash screen",
       "UX improvements",
@@ -34,6 +38,8 @@
     "buildNumber": "5",
     "plist": "Vitals.Mobile.plist",
     "apk": "Vitals.Mobile.apk",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
     "changes": [
       "Implemented Vitals product UI design",
       "For internal test and demo only"

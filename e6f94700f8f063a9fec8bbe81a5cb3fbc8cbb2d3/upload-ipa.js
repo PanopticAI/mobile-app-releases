@@ -7,7 +7,7 @@ var opn = require('opn');
 const program = require('commander');
 const config = require('./config.json');
 
-function updateReleasesJson(version, buildNumber, plist, name) {
+function updateReleasesJson(version, buildNumber, plist, name, tagPrefix, tagDelimiter, apk) {
 
   var releasesFilePath = path.join(__dirname, 'releases.json');
 
@@ -46,8 +46,10 @@ function updateReleasesJson(version, buildNumber, plist, name) {
       name,
       version,
       buildNumber,
+      tagPrefix,
+      tagDelimiter,
       plist,
-      apk: latestRelease.apk,
+      apk,
       changes: latestRelease ? latestRelease.changes : [],
       issues: latestRelease ? latestRelease.issues : []
     };
@@ -174,7 +176,7 @@ githubOauth().then( token => {
   return uploader.upload(options);
 }).then( result => {
   console.log('\n');
-  return updateReleasesJson(result.version, result.buildNumber, result.plist, appName);
+  return updateReleasesJson(result.version, result.buildNumber, result.plist, appName, tagPrefix, tagDelimiter, apkName);
 }).then( () => {
   process.exit();
 }).catch( error => {
