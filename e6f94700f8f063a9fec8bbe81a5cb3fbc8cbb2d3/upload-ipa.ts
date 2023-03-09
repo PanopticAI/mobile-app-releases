@@ -26,7 +26,7 @@ async function updateReleasesJson(version:string, buildNumber:string, plist:stri
 
   });
   
-  var releases:[any] = JSON.parse(data);
+  var releases:[any?] = JSON.parse(data);
   releases = releases || [];
 
   var existingRelease = releases.find( release => {
