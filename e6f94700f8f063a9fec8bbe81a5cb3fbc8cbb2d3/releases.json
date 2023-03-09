@@ -1,5 +1,19 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "First release"
+    ],
+    "issues": [
+      "No known issue in this version."
+    ]
+  },
+  {
     "name": "Flutter Demo App",
     "version": "1.0.0",
     "buildNumber": "1",

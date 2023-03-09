@@ -7,7 +7,8 @@
     "serve": "http-server",
     "start": "node upload-ipa.js -m adhoc",
     "upload-vitals-mobile": "ts-node upload-ipa.js  -i Vitals.Mobile.ipa  -a Vitals.Mobile.apk  -n \"itals™ Mobile App\"  -t vitals-mobile  -d \"-\"",
-    "upload-flutter":       "ts-node upload-ipa.ts  -i flutter_demo.ipa   -a flutter_demo.apk   -n \"Flutter Demo App\"   -t flutter-demo   -d \"-\"",
+    "upload-flutter": "ts-node upload-ipa.ts  -i flutter_demo.ipa   -a flutter_demo.apk   -n \"Flutter Demo App\"   -t flutter-demo   -d \"-\"",
+    "upload-fda": "ts-node upload-ipa.ts  -i FdaApp.ipa                               -n \"FDA App\"            -t fda-app        -d \"-\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eddie Lau",
@@ -26,7 +27,7 @@
   },
   "devDependencies": {
     "@types/http-server": "^0.12.1",
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.14.6",
     "http-server": "^0.12.0",
     "open": "^8.4.2",
     "ts-node": "^10.9.1",

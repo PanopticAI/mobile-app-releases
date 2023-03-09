@@ -3,10 +3,10 @@ import * as path from 'path';
 import * as http from "http";
 var uploader = require('github-ipa-uploader');
 import open from 'open';
-import program from 'commander';
+const program = require('commander');
 const config = require('./config.json');
 
-async function updateReleasesJson(version:string, buildNumber:string, plist:string, name:string, tagPrefix:string, tagDelimiter:string, apk:string):Promise<void> {
+async function updateReleasesJson(version:string, buildNumber:string, plist:string, name:string, tagPrefix:string, tagDelimiter:string, apk?:string):Promise<void> {
 
   var releasesFilePath = path.join(__dirname, 'releases.json');
 
@@ -31,7 +31,8 @@ async function updateReleasesJson(version:string, buildNumber:string, plist:stri
 
   var existingRelease = releases.find( release => {
     return release.version == version &&
-            release.buildNumber == buildNumber;
+            release.buildNumber == buildNumber &&
+            release.name == name
   });
 
   if (existingRelease) {
@@ -133,39 +134,44 @@ async function main() {
 
   program
     .option('-i, --ipa <ipa-file>', 'The iOS binary file')
-    .option('-a, --apk <apk-file>', 'The Android binary file')
+    .option('-a, --apk [apk-file]', 'The Android binary file')
     .option('-n, --name <app-name>', 'The name of the app')
     .option('-t, --tag <tag-prefix>', 'The prefix of git TAG')
     .option('-d, --delimiter <tag-delimiter>', 'Optional. The delimiter of the tag, default is "_".')
 
   program.parse(process.argv);
 
-  var ipaName = program.options.ipa;
-  var apkName = program.options.apk;
-  var appName = program.options.name;
-  var tagPrefix = program.options.tag;
-  var tagDelimiter = program.options.delimiter || '_';
+  var ipaName = program.ipa;
+  var apkName = program.apk;
+  var appName = program.name;
+  var tagPrefix = program.tag;
+  var tagDelimiter = program.delimiter || '_';
 
-  if (!ipaName || !apkName || !appName || !tagPrefix) {
+  if (!ipaName || !appName || !tagPrefix) {
     program.help();
     process.exit(-1);
   }
 
   let token = await githubOauth();
 
+  let binaries:[{path:string, iconURL?:string}] = [
+    {
+      path: path.join(__dirname, ipaName),
+      iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
+    },
+  ];
+
+  if (apkName) {
+    binaries.push({
+      path: path.join(__dirname, apkName)
+    })
+  }
+
   var options = {
     token: token,
     owner: config.githubOwner,
     repo: config.githubRepo,
-    binaries: [
-      {
-        path: path.join(__dirname, ipaName),
-        iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
-      },
-      {
-        path: path.join(__dirname, apkName)
-      }
-    ],
+    binaries,
     tagPrefix,
     tagDelimiter
   };
