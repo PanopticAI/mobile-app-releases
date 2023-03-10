@@ -2,6 +2,21 @@
   {
     "name": "FDA App",
     "version": "1.0.0",
+    "buildNumber": "2",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Changed 'Heart Rate' to 'Pause Rate'.",
+      "Disable phone screen dimming during scanning."
+    ],
+    "issues": [
+      "No known issue in this version."
+    ]
+  },
+  {
+    "name": "FDA App",
+    "version": "1.0.0",
     "buildNumber": "1",
     "tagPrefix": "fda-app",
     "tagDelimiter": "-",
