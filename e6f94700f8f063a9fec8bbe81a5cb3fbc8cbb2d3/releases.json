@@ -7,7 +7,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
-      "Changed 'Heart Rate' to 'Pause Rate'.",
+      "Changed 'Heart Rate' to 'Pulse Rate'.",
       "Disable phone screen dimming during scanning."
     ],
     "issues": [
