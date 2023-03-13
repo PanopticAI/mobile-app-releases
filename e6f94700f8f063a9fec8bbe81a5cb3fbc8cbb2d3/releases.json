@@ -1,5 +1,19 @@
 [
   {
+    "name": "Webapp Wrapper App",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "tagPrefix": "wrapper-app",
+    "tagDelimiter": "-",
+    "plist": "VitalSignWebWrapper.plist",
+    "changes": [
+      "Bupa Ruby7 Campaign"
+    ],
+    "issues": [
+      "No known issue in this version."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.0.0",
     "buildNumber": "2",
