@@ -2,7 +2,7 @@
   {
     "name": "Webapp Wrapper App",
     "version": "1.0.0",
-    "buildNumber": "1",
+    "buildNumber": "2",
     "tagPrefix": "wrapper-app",
     "tagDelimiter": "-",
     "plist": "VitalSignWebWrapper.plist",
