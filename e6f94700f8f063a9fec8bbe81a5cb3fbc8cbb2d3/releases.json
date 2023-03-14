@@ -2,12 +2,13 @@
   {
     "name": "Webapp Wrapper App",
     "version": "1.0.0",
-    "buildNumber": "3",
+    "buildNumber": "4",
     "tagPrefix": "wrapper-app",
     "tagDelimiter": "-",
     "plist": "VitalSignWebWrapper.plist",
     "changes": [
-      "Bupa Ruby7 Campaign"
+      "Bupa Ruby7 Campaign",
+      "Removed cancel button"
     ],
     "issues": [
       "No known issue in this version."
