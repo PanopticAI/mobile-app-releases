@@ -2,13 +2,13 @@
   {
     "name": "Webapp Wrapper App",
     "version": "1.0.0",
-    "buildNumber": "6",
+    "buildNumber": "7",
     "tagPrefix": "wrapper-app",
     "tagDelimiter": "-",
     "plist": "VitalSignWebWrapper.plist",
     "changes": [
       "Bupa Ruby7 Campaign",
-      "Updated Bupa Home page URL"
+      "Removed extra question"
     ],
     "issues": [
       "No known issue in this version."
