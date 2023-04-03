@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "http-server",
     "start": "node upload-ipa.js -m adhoc",
-    "upload-vitals-mobile": "ts-node upload-ipa.js  -i Vitals.Mobile.ipa  -a Vitals.Mobile.apk  -n \"itals™ Mobile App\"  -t vitals-mobile  -d \"-\"",
+    "upload-vitals-mobile": "ts-node upload-ipa.ts  -i Vitals.Mobile.ipa  -a Vitals.Mobile.apk  -n \"itals™ Mobile App\"  -t vitals-mobile  -d \"-\"",
     "upload-flutter": "ts-node upload-ipa.ts        -i flutter_demo.ipa   -a flutter_demo.apk   -n \"Flutter Demo App\"   -t flutter-demo   -d \"-\"",
     "upload-fda": "ts-node upload-ipa.ts            -i FdaApp.ipa                               -n \"FDA App\"            -t fda-app        -d \"-\"",
     "upload-wrapper": "ts-node upload-ipa.ts        -i VitalSignWebWrapper.ipa                  -n \"Webapp Wrapper App\" -t wrapper-app    -d \"-\"",
