@@ -16,7 +16,7 @@ This repository contains the [web app](https://panopticai.github.io/mobile-app-r
 1. Copy the iOS IPA file and the Android APK file to the current folder:
    ``` bash
    cp /the/path/of/IPA/file ./Vitals.Mobile.ipa
-   cp /the/path/of/APK/file /Vitals.Mobile.apk
+   cp /the/path/of/APK/file ./Vitals.Mobile.apk
    ```
 1. Upload the files:
    ```bash
