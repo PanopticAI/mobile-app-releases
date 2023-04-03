@@ -1,12 +1,9 @@
 # Mobile App Releases Web Site
 
-This repository contains the web app for releasing the mobile apps for internal testing. The web app is hosted here:
+This repository contains the [web app](https://panopticai.github.io/mobile-app-releases/) for releasing the mobile apps for internal testing.
 
-```
-https://panopticai.github.io/mobile-app-releases/
-```
 
-### Deploying Mobile Apps
+## Deploying Mobile Apps
 
 1. Go to the root folder of the site:
    ```bash
