@@ -1,6 +1,6 @@
 # Mobile App Releases Web Site
 
-This repository contains the web app for releasing the mobile app for internal testing. The web app is hosted here:
+This repository contains the web app for releasing the mobile apps for internal testing. The web app is hosted here:
 
 ```
 https://panopticai.github.io/mobile-app-releases/
