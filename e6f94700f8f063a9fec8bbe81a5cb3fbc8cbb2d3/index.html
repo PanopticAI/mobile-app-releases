@@ -18,23 +18,25 @@
         <a class="navbar-brand" href="#">{{ config.title }}</a>
       </nav>
 
-      <div v-if="releases.length > 0" class="container">
-
-        <div v-for="r in releases" class="card mx-4 my-4">
-          <div class="card-header">
-              {{ r.name }} {{ r.version }}-{{ r.buildNumber }}
-          </div>
-          <div class="card-body">
-            <h5 class="card-title text-muted">Changes</h5>
-            <ul class="mb-4">
-              <li v-for="text in r.changes">{{ text }}</li>
-            </ul>
-            <h5 class="card-title text-muted">Known Issues</h5>
-            <ul class="mb-4">
-              <li v-for="text in r.issues">{{ text }}</li>
-            </ul>
-            <a class="btn btn-primary" :href=" `itms-services://?action=download-manifest&amp;url=https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.plist}` ">Install iOS</a>
-            <a v-if="r.apk" class="btn btn-primary" :href=" `https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.apk}` ">Install Android</a>
+      <div v-if="mobileApps.length > 0" class="container">
+        <div v-for="app in mobileApps" class="card mx-4 my-4">
+          <h5 style='text-align: center; margin-top: 30px'>{{ app.name }}</h5>
+          <div v-for="r in app.releases" class="card mx-4 my-4">
+              <div class="card-header">
+                  {{ r.name }} {{ r.version }}-{{ r.buildNumber }}
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-muted">Changes</h5>
+                <ul class="mb-4">
+                  <li v-for="text in r.changes">{{ text }}</li>
+                </ul>
+                <h5 class="card-title text-muted">Known Issues</h5>
+                <ul class="mb-4">
+                  <li v-for="text in r.issues">{{ text }}</li>
+                </ul>
+                <a class="btn btn-primary" :href=" `itms-services://?action=download-manifest&amp;url=https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.plist}` ">Install iOS</a>
+                <a v-if="r.apk" class="btn btn-primary" :href=" `https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.apk}` ">Install Android</a>
+             </div>
           </div>
         </div>
       </div>
