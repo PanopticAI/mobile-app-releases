@@ -19,31 +19,47 @@
       </nav>
 
       <div v-if="mobileApps.length > 0" class="container">
-        <div v-for="app in mobileApps" class="card mx-4 my-4">
-          <h5 style='text-align: center; margin-top: 30px'>{{ app.name }}</h5>
-          <div v-for="r in app.releases" class="card mx-4 my-4">
-              <div class="card-header">
-                  {{ r.name }} {{ r.version }}-{{ r.buildNumber }}
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-muted">Changes</h5>
-                <ul class="mb-4">
-                  <li v-for="text in r.changes">{{ text }}</li>
-                </ul>
-                <h5 class="card-title text-muted">Known Issues</h5>
-                <ul class="mb-4">
-                  <li v-for="text in r.issues">{{ text }}</li>
-                </ul>
-                <a class="btn btn-primary" :href=" `itms-services://?action=download-manifest&amp;url=https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.plist}` ">Install iOS</a>
-                <a v-if="r.apk" class="btn btn-primary" :href=" `https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.apk}` ">Install Android</a>
-             </div>
+      <div class="card mx-4 my-4">
+        
+        <select id="app-select" onchange="updateSelectedApp()" style='text-align: center; margin-top: 30px; margin-left: 150px; margin-right: 150px; margin-bottom: 30px; height: 50;'>
+          <option v-for="app in mobileApps">{{app.name}}</option>
+        </select>
+
+        <div v-if="thisApp !== undefined">
+        <div v-for="r in thisApp.releases" class="card mx-4 my-4">
+          <div class="card-header">
+              {{ r.name }} {{ r.version }}-{{ r.buildNumber }}
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-muted">Changes</h5>
+            <ul class="mb-4">
+              <li v-for="text in r.changes">{{ text }}</li>
+            </ul>
+            <h5 class="card-title text-muted">Known Issues</h5>
+            <ul class="mb-4">
+              <li v-for="text in r.issues">{{ text }}</li>
+            </ul>
+            <a class="btn btn-primary" :href=" `itms-services://?action=download-manifest&amp;url=https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.plist}` ">Install iOS</a>
+            <a v-if="r.apk" class="btn btn-primary" :href=" `https://github.com/${config.githubOwner}/${config.githubRepo}/releases/download/${r.tagPrefix}${r.tagDelimiter}${r.version}${r.tagDelimiter}${r.buildNumber}/${r.apk}` ">Install Android</a>
           </div>
         </div>
-      </div>
+        </div> 
 
-  </div>
+      </div>
+      </div>
+    </div>
 
     <script src="main.js"></script>
+    <script>
+      function updateSelectedApp() {
+
+        var appSelect = document.getElementById("app-select").value;
+        var selectedList = document.getElementById("selected-list");
+  
+        app.thisApp = app.mobileApps.find(element => element.name == appSelect);
+      }
+    </script>
 
   </body>
-</body>
+</html>
+

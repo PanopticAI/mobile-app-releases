@@ -22,7 +22,8 @@ var app = new Vue({
   data: {
     config: {},
     releases: [],
-    mobileApps: []
+    mobileApps: [],
+    thisApp: undefined
   }
 });
 
