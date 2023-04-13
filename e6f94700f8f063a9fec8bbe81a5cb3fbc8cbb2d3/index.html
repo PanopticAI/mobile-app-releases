@@ -22,6 +22,7 @@
       <div class="card mx-4 my-4">
         
         <select id="app-select" onchange="updateSelectedApp()" style='text-align: center; margin-top: 30px; margin-left: 150px; margin-right: 150px; margin-bottom: 30px; height: 50;'>
+          <option value="" selected>Please select an App...</option>
           <option v-for="app in mobileApps">{{app.name}}</option>
         </select>
 
