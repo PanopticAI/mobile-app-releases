@@ -21,10 +21,13 @@
       <div v-if="mobileApps.length > 0" class="container">
       <div class="card mx-4 my-4">
         
-        <select id="app-select" onchange="updateSelectedApp()" style='text-align: center; margin-top: 30px; margin-left: 150px; margin-right: 150px; margin-bottom: 30px; height: 50;'>
+        <div class="row justify-content-center">
+          <select id="app-select" onchange="updateSelectedApp()" class='col-8' style='text-align: center; margin-top: 30px; margin-bottom: 30px; height: 50; font-size: 15;'>
           <option value="" selected>Please select an App...</option>
           <option v-for="app in mobileApps">{{app.name}}</option>
-        </select>
+          </select>
+        </div>
+        
 
         <div v-if="thisApp !== undefined">
         <div v-for="r in thisApp.releases" class="card mx-4 my-4">
