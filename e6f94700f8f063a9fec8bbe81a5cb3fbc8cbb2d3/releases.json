@@ -1,5 +1,19 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.0.1",
+    "buildNumber": "4",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Temporary remove the menu button."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "Vitals™ Mobile App",
     "version": "1.1.0",
     "buildNumber": "8",
