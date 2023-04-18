@@ -1,4 +1,21 @@
 [
+
+  {
+    "name": "Vitals™ Mobile App",
+    "version": "1.1.0",
+    "buildNumber": "9",
+    "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
+    "changes": [
+      "Modify flow after opening app and login"
+    ],
+    "issues": [
+      "Breathing animation in scanning screen has not been updated",
+      "BMI result is missing"
+    ]
+  },
   {
     "name": "FDA App",
     "version": "1.0.1",
