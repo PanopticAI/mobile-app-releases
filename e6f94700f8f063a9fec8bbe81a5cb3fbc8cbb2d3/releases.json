@@ -1,5 +1,21 @@
 [
-
+  {
+    "name": "Vitals™ Mobile App",
+    "version": "1.1.1",
+    "buildNumber": "10",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
+    "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
+    "changes": [
+      "Bug fixes",
+      "UX improvements"
+    ],
+    "issues": [
+      "Breathing animation in scanning screen has not been updated",
+      "BMI result is missing"
+    ]
+  },
   {
     "name": "Vitals™ Mobile App",
     "version": "1.1.0",
