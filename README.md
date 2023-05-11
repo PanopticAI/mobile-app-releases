@@ -7,6 +7,7 @@ This repository contains the [web app](https://panopticai.github.io/mobile-app-r
 
 1. Go to the root folder of the site:
    ```bash
+   git pull
    cd e6f94700f8f063a9fec8bbe81a5cb3fbc8cbb2d3
    ```
 1. Setup the project:
