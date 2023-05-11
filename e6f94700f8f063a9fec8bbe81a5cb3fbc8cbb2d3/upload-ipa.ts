@@ -179,6 +179,7 @@ async function main() {
   let result = await uploader.upload(options);
   console.log('\n');
   await updateReleasesJson(result.version, result.buildNumber, result.plist, appName, tagPrefix, tagDelimiter, apkName);
+  console.log("Binaries uploaded successfully.")
 }
 
-main()
+main().then( ()=> process.exit(0) )
