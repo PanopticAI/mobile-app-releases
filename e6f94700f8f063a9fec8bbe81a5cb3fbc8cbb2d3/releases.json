@@ -1,5 +1,21 @@
 [
   {
+    "name": "Data Collection App",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Initial release",
+      "Video Recording",
+      "Export video"
+    ],
+    "issues": [
+      "No known issue"
+    ]
+  },
+  {
     "name": "Vitals™ Mobile App",
     "version": "1.1.1",
     "buildNumber": "10",
