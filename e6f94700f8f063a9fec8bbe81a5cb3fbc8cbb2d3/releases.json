@@ -1,5 +1,30 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.2.0",
+    "buildNumber": "5",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "In starting page, added \"(KG)\" beside the weight and \"(CM)\" beside the height.",
+      "When the lighting condition is not fulfilled, display message: \"Please ensure that your face is evenly and adequately lit.\".",
+      "When the distance condition is not fulfilled, display message: \"Please center your face within the silhouette at a suitable distance.\".",
+      "When the centered condition is not fulfilled, display message: \"Please center your face within the silhouette.\".",
+      "When the movements condition is not fulfilled, display message: \"Please keep the device stable and remain still.\".",
+      "When the server ready condition is not fulfilled, display message: \"Please wait until the server is ready.\".",
+      "Removed the frame rate condition.",
+      "The scan cannot be started if the app can't get the camera permission, it will prompt user with a dialog box and ask for the permission again. ",
+      "Removed blink detection feature.",
+      "Added a button to show the settings.",
+      "Shows version in settings.",
+      "Added \"Auto Start\" option in settings."
+    ],
+    "issues": [
+      "No known issue"
+    ]
+  },
+  {
     "name": "Data Collection App",
     "version": "1.0.0",
     "buildNumber": "1",
