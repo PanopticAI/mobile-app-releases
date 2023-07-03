@@ -2,7 +2,7 @@
   {
     "name": "Vitals™ Mobile App",
     "version": "1.1.1",
-    "buildNumber": "11",
+    "buildNumber": "12",
     "tagPrefix": "vitals-mobile",
     "tagDelimiter": "-",
     "plist": "Vitals.Mobile.plist",
