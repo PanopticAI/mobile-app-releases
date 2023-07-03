@@ -1,5 +1,21 @@
 [
   {
+    "name": "Vitals™ Mobile App",
+    "version": "1.1.1",
+    "buildNumber": "11",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
+    "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
+    "changes": [
+      "Added one UDID to the profile."
+    ],
+    "issues": [
+      "Breathing animation in scanning screen has not been updated",
+      "BMI result is missing"
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.2.0",
     "buildNumber": "6",
