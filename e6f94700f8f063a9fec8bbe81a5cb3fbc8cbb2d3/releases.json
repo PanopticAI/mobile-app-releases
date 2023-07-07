@@ -13,7 +13,8 @@
       "Updated valid luminance range (>= 90.0)",
       "Implemented version check upon start. If the app version is not the latest, the app shows error and prevents user to use.",
       "Implemented internet connection check. If no internet connection, the app shows error and prevents user to use.",
-      "Implemented signal quality check. If signal quality less then 0.6, the app shows error."
+      "Implemented signal quality check. If signal quality less then 0.6, the app shows error.",
+      "Use HD (1080p) for the camera resolution"
     ],
     "issues": [
       "This version use HD for the camera resolution, devices older than iPhone 13 Pro and iPad Air 5th generation may get the error message: \"Camera quality is to low, please try again\"."
