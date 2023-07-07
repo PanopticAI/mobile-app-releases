@@ -21,7 +21,7 @@
       "Added \"Auto Start\" option in settings."
     ],
     "issues": [
-      "No known issue"
+      "This version use HD for the camera resolution, devices older than iPhone 13 Pro and iPad Air 5th generation may get the error message: \"Camera quality is to low, please try again\"."
     ]
   },
   {
