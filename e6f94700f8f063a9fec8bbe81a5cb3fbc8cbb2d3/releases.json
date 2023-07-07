@@ -1,6 +1,64 @@
 [
   {
     "name": "FDA App",
+    "version": "1.3.0",
+    "buildNumber": "8",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Implemented new luminance algorithm.",
+      "Implemented new distance algorithm.",
+      "Updated valid distance range (0.3m to 0.4m)",
+      "Updated valid luminance range (>= 90.0)",
+      "Implemented version check upon start. If the app version is not the latest, the app shows error and prevents user to use.",
+      "Implemented internet connection check. If no internet connection, the app shows error and prevents user to use.",
+      "Implemented signal quality check. If signal quality less then 0.6, the app shows error."
+    ],
+    "issues": [
+      "No known issue"
+    ]
+  },
+  {
+    "name": "Data Collection App",
+    "version": "1.1.0",
+    "buildNumber": "3",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Support changing Preview Gravity",
+      "Show useful info on display",
+      "Support Face landmarks recording",
+      "Support Video timestamp recording",
+      "Support USB download (via iTunes File Sharing)",
+      "Implemented new luminance algorithm",
+      "Implemented new distance algorithm",
+      "Remote Control: Support deleting files, and listing files",
+      "Improved error and boundary cases handling"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this happens, use USB or AirDrop as workarounds."
+    ]
+  },
+  {
+    "name": "Vitals™ Mobile App",
+    "version": "1.1.1",
+    "buildNumber": "13",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
+    "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
+    "changes": [
+      "Added one UDID to the profile."
+    ],
+    "issues": [
+      "Breathing animation in scanning screen has not been updated",
+      "BMI result is missing"
+    ]
+  },
+  {
+    "name": "FDA App",
     "version": "1.2.0",
     "buildNumber": "6",
     "tagPrefix": "fda-app",
