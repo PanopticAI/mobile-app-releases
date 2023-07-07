@@ -16,7 +16,7 @@
       "Implemented signal quality check. If signal quality less then 0.6, the app shows error."
     ],
     "issues": [
-      "No known issue"
+      "This version use HD for the camera resolution, devices older than iPhone 13 Pro and iPad Air 5th generation may get the error message: \"Camera quality is to low, please try again\"."
     ]
   },
   {
@@ -79,7 +79,7 @@
       "Added \"Auto Start\" option in settings."
     ],
     "issues": [
-      "This version use HD for the camera resolution, devices older than iPhone 13 Pro and iPad Air 5th generation may get the error message: \"Camera quality is to low, please try again\"."
+      "No known issue"
     ]
   },
   {
