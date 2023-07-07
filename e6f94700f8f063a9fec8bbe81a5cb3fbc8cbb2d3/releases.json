@@ -1,5 +1,27 @@
 [
   {
+    "name": "Data Collection App",
+    "version": "1.1.0",
+    "buildNumber": "3",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Support changing Preview Gravity",
+      "Show useful info on display",
+      "Support Face landmarks recording",
+      "Support Video timestamp recording",
+      "Support USB download (via iTunes File Sharing)",
+      "Implemented new luminance algorithm",
+      "Implemented new distance algorithm",
+      "Remote Control: Support deleting files, and listing files",
+      "Improved error and boundary cases handling"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this happens, use USB or AirDrop as workarounds."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.3.0",
     "buildNumber": "7",
