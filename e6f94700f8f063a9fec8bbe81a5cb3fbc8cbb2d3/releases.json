@@ -39,7 +39,7 @@
       "Improved error and boundary cases handling"
     ],
     "issues": [
-      "WiFi download is not 100% stable. If this happens, use USB or AirDrop as workarounds."
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
     ]
   },
   {
