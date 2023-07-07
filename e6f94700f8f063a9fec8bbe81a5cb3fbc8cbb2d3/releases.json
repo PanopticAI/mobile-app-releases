@@ -1,5 +1,25 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.3.0",
+    "buildNumber": "8",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Implemented new luminance algorithm.",
+      "Implemented new distance algorithm.",
+      "Updated valid distance range (0.3m to 0.4m)",
+      "Updated valid luminance range (>= 90.0)",
+      "Implemented version check upon start. If the app version is not the latest, the app shows error and prevents user to use.",
+      "Implemented internet connection check. If no internet connection, the app shows error and prevents user to use.",
+      "Implemented signal quality check. If signal quality less then 0.6, the app shows error."
+    ],
+    "issues": [
+      "No known issue"
+    ]
+  },
+  {
     "name": "Data Collection App",
     "version": "1.1.0",
     "buildNumber": "3",
@@ -19,26 +39,6 @@
     ],
     "issues": [
       "WiFi download is not 100% stable. If this happens, use USB or AirDrop as workarounds."
-    ]
-  },
-  {
-    "name": "FDA App",
-    "version": "1.3.0",
-    "buildNumber": "7",
-    "tagPrefix": "fda-app",
-    "tagDelimiter": "-",
-    "plist": "FdaApp.plist",
-    "changes": [
-      "Implemented new luminance algorithm.",
-      "Implemented new distance algorithm.",
-      "Updated valid distance range (0.3m to 0.4m)",
-      "Updated valid luminance range (>= 90.0)",
-      "Implemented version check upon start. If the app version is not the latest, the app shows error and prevents user to use.",
-      "Implemented internet connection check. If no internet connection, the app shows error and prevents user to use.",
-      "Implemented signal quality check. If signal quality less then 0.6, the app shows error."
-    ],
-    "issues": [
-      "No known issue"
     ]
   },
   {
