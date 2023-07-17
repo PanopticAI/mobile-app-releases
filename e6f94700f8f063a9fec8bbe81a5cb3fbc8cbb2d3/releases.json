@@ -10,6 +10,8 @@
       "Added compression format option",
       "Added python client DCollect.py for remote control",
       "Added audio recording",
+      "Added option to enable/disable landmark recording",
+      "Added option to enable/disable timestamp recording",
       "Bug fixes"
     ],
     "issues": [
