@@ -1,6 +1,22 @@
 [
   {
     "name": "Data Collection App",
+    "version": "1.3.0",
+    "buildNumber": "5",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Support video dimension modification for uncompressed formats",
+      "Remote Control: Support re-initializing camera",
+      "Updated lighting formula and valid range (Y >= 150)"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
+    "name": "Data Collection App",
     "version": "1.2.0",
     "buildNumber": "4",
     "tagPrefix": "data-collection-app",
