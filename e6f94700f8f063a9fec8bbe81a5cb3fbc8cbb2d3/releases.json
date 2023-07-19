@@ -7,7 +7,7 @@
     "tagDelimiter": "-",
     "plist": "DataCollectionApp.plist",
     "changes": [
-      "Support video dimension modification for uncompressed formats",
+      "Support custom video dimension for uncompressed formats",
       "Remote Control: Support re-initializing camera",
       "Updated lighting formula and valid range (Y >= 150)"
     ],
