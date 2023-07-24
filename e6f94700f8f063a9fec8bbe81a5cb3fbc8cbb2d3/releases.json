@@ -1,5 +1,30 @@
 [
   {
+    "name": "Vitals™ Mobile App",
+    "version": "1.2.0",
+    "buildNumber": "14",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
+    "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
+    "changes": [
+      "Added scan alarm reminder",
+      "Added articles page with categorized articles",
+      "Added daily scan counter",
+      "Upgrade scan results chart (show tooltip when pressed, show all of the scan results instead of the latest scan result)",
+      "Add navigation drawer for easier page navigation",
+      "Change user age input to age group",
+      "Change breathing animation",
+      "Added general wellness monthly summary",
+      "Added trend chart in Hong Kong for each vital sign",
+      "Remove body temperature result"
+    ],
+    "issues": [
+      "Cardiac Workload, Pulse Respiratory Quotient, BMI, Facial Skin Age results are missing",
+      "Share button is still not functioning",
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.3.0",
     "buildNumber": "9",
