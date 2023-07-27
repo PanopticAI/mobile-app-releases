@@ -2,6 +2,22 @@
   {
     "name": "Vitals™ Mobile App",
     "version": "1.2.0",
+    "buildNumber": "15",
+    "tagPrefix": "vitals-mobile",
+    "tagDelimiter": "-",
+    "plist": "Vitals.Mobile.plist",
+    "apk": "Vitals.Mobile.apk",
+    "changes": [
+      "Added UDIDs to the profile."
+    ],
+    "issues": [
+      "Cardiac Workload, Pulse Respiratory Quotient, BMI, Facial Skin Age results are missing",
+      "Share, Summary, and Settings buttons are still not functioning"
+    ]
+  },
+  {
+    "name": "Vitals™ Mobile App",
+    "version": "1.2.0",
     "buildNumber": "14",
     "tagPrefix": "vitals-mobile",
     "tagDelimiter": "-",
