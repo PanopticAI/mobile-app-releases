@@ -9,7 +9,7 @@
     "changes": [
       "Remote Control: Support getting device's remaining storage",
       "Remote Control: Support getting device's recording state",
-      "Updated DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/blob/main/DCollect.py"
+      "Updated DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.4.0-6"
     ],
     "issues": [
       "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
