@@ -1,6 +1,21 @@
 [
   {
     "name": "Data Collection App",
+    "version": "1.5.0",
+    "buildNumber": "7",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Remote Control: Support stopping camera",
+      "Updated DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.5.0-7"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
+    "name": "Data Collection App",
     "version": "1.4.0",
     "buildNumber": "6",
     "tagPrefix": "data-collection-app",
