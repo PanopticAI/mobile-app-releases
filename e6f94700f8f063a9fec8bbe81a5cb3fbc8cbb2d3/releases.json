@@ -1,6 +1,27 @@
 [
   {
     "name": "Data Collection App",
+    "version": "1.6.0",
+    "buildNumber": "8",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Add UI in settings to toggle camera on/off",
+      "Display version number in settings",
+      "Show black frame after closing the camera",
+      "Bug Fix: Require camera to be turned on before starting to record",
+      "Remote Control: Add 'startCamera' command to turn on the camera",
+      "Remote Control: 'reload' command cannot turn on the camera anymore",
+      "The script 'DCollect.sh' is not updated anymore",
+      "Updated DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.6.0-8"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
+    "name": "Data Collection App",
     "version": "1.5.0",
     "buildNumber": "7",
     "tagPrefix": "data-collection-app",
