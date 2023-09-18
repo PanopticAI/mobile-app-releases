@@ -1,5 +1,19 @@
 [
   {
+    "name": "Webapp Wrapper App",
+    "version": "1.1.1",
+    "buildNumber": "6",
+    "tagPrefix": "wrapper-app",
+    "tagDelimiter": "-",
+    "plist": "VitalSignWebWrapper.plist",
+    "changes": [
+      "Updated to latest Vitals Webapp",
+      "Load the models faster by also bundling the mediapip models"
+    ],
+    "issues": [
+    ]
+  },
+  {
     "name": "Data Collection App",
     "version": "1.6.0",
     "buildNumber": "8",
