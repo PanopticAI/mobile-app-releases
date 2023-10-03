@@ -1,5 +1,24 @@
 [
   {
+    "name": "Commerical DC App",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Provide user profile & medical history questionnaire",
+      "Provide scan condition checking",
+      "Support 30s 1x1 RGB or 8x8 RGB pixel data collection",
+      "Provide ground truth survey",
+      "Send the collected data to AWS S3 Bucket named 'panopticai-internal-log-bucket/CDC-app'",
+      "Allow camera and pixel format configurations in settings",
+      "Support languages: en, zh-HK, zh-Hans, and zh-Hant",
+      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/main/docs/cdc_app_schema.md"
+    ],
+    "issues": []
+  },
+  {
     "name": "Flutter Demo App",
     "version": "1.3.1",
     "buildNumber": "2",
