@@ -1,5 +1,17 @@
 [
   {
+    "name": "Webapp Wrapper App",
+    "version": "1.2.0",
+    "buildNumber": "9",
+    "tagPrefix": "wrapper-app",
+    "tagDelimiter": "-",
+    "plist": "VitalSignWebWrapper.plist",
+    "changes": [
+      "For Mannings event on Oct 18, 2023."
+    ],
+    "issues": []
+  },
+  {
     "name": "Commerical DC App",
     "version": "1.0.0",
     "buildNumber": "1",
