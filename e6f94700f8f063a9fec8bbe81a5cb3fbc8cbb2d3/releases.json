@@ -1,5 +1,24 @@
 [
   {
+    "name": "Data Collection App",
+    "version": "1.7.0",
+    "buildNumber": "9",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Play instruction video while recording",
+      "Update UI for data collection & settings",
+      "Add UI in settings to set the instruction video to be displayed",
+      "Remote Control: Add ‘setVideo’ command to set the instruction video to be displayed",
+      "Fixed app orientation to be portrait",
+      "Updated DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.7.0-9"
+    ],
+    "issues": [
+      "* WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
     "name": "Webapp Wrapper App",
     "version": "1.2.0",
     "buildNumber": "10",
