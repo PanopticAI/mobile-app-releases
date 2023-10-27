@@ -32,10 +32,11 @@
       "Add UI in settings to set the instruction video to be displayed",
       "Remote Control: Add ‘setVideo’ command to set the instruction video to be displayed",
       "Fixed app orientation to be portrait",
+      "Disallow navigating to Settings during recording",
       "Updated DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.7.0-9"
     ],
     "issues": [
-      "* WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
     ]
   },
   {
