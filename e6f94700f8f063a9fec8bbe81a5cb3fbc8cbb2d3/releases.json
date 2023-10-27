@@ -1,5 +1,25 @@
 [
   {
+    "name": "Commerical DC App",
+    "version": "1.1.0",
+    "buildNumber": "2",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Remove scan condition checking",
+      "Disable blink detection",
+      "Add collection of accelerometer and gyroscope data",
+      "Add collection of video frame info data",
+      "Add collection of background image data",
+      "Add collection of facial markers data",
+      "Add support for collecting 32x32 pixels data",
+      "Update default precision of location data collected to hundred meters",
+      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/098cd884fef8bed4dca8ab39450aed293900cb11/docs/cdc_app_schema.md"
+    ],
+    "issues": []
+  },
+  {
     "name": "Data Collection App",
     "version": "1.7.0",
     "buildNumber": "9",
@@ -45,7 +65,7 @@
       "Send the collected data to AWS S3 Bucket named 'panopticai-internal-log-bucket/CDC-app'",
       "Allow camera and pixel format configurations in settings",
       "Support languages: en, zh-HK, zh-Hans, and zh-Hant",
-      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/main/docs/cdc_app_schema.md"
+      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/6877846a07b5d50dc46a45c733c1269dda5ba02f/docs/cdc_app_schema.md"
     ],
     "issues": []
   },
