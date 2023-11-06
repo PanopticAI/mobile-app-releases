@@ -1,6 +1,24 @@
 [
   {
     "name": "Commerical DC App",
+    "version": "1.2.0",
+    "buildNumber": "3",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Collect camera settings data",
+      "Add Terms & Conditions",
+      "Add Privacy Policy",
+      "Require agreement on T&C and Privacy Policy for using the app",
+      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/110fabc3b3f3289f8a28a5509c2a530b9e27d237/docs/cdc_app_schema.md"
+    ],
+    "issues": [
+      "The Terms & Conditions and Privacy Policy content needs further review before external release."
+    ]
+  },
+  {
+    "name": "Commerical DC App",
     "version": "1.1.0",
     "buildNumber": "2",
     "tagPrefix": "commercial-dc-app",
