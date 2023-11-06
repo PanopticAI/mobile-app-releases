@@ -1,12 +1,13 @@
 [
   {
     "name": "Commerical DC App",
-    "version": "1.2.0",
-    "buildNumber": "3",
+    "version": "1.2.1",
+    "buildNumber": "4",
     "tagPrefix": "commercial-dc-app",
     "tagDelimiter": "-",
     "plist": "CommercialDCApp.plist",
     "changes": [
+      "Add iphone 15 in AdHoc profile",
       "Collect camera settings data",
       "Make weight and height input fields mandatory",
       "Add Terms & Conditions",
