@@ -8,6 +8,7 @@
     "plist": "CommercialDCApp.plist",
     "changes": [
       "Collect camera settings data",
+      "Make weight and height input fields mandatory",
       "Add Terms & Conditions",
       "Add Privacy Policy",
       "Require agreement on T&C and Privacy Policy for using the app",
