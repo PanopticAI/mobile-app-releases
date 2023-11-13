@@ -1,6 +1,23 @@
 [
   {
     "name": "Commerical DC App",
+    "version": "1.4.0",
+    "buildNumber": "6",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Added countdown in blood pressure input screens",
+      "Added nationality field in user medication survey",
+      "Added ethnicity field in user medication survey",
+      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/1.4.0-6"
+    ],
+    "issues": [
+      "The Terms & Conditions and Privacy Policy content needs further review before external release."
+    ]
+  },
+  {
+    "name": "Commerical DC App",
     "version": "1.3.0",
     "buildNumber": "5",
     "tagPrefix": "commercial-dc-app",
