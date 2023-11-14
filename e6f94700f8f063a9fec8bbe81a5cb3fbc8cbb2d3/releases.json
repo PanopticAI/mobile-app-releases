@@ -12,6 +12,7 @@
       "Added ethnicity field in user medication survey",
       "Navigate to 2nd blood pressure input screen after scan error",
       "Save exercise value locally only at navigation",
+      "Avoid saving placeholder remarks to s3",
       "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/1.4.1-7"
     ],
     "issues": [
