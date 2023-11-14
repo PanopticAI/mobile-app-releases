@@ -1,8 +1,8 @@
 [
   {
     "name": "Commerical DC App",
-    "version": "1.4.0",
-    "buildNumber": "6",
+    "version": "1.4.1",
+    "buildNumber": "7",
     "tagPrefix": "commercial-dc-app",
     "tagDelimiter": "-",
     "plist": "CommercialDCApp.plist",
@@ -10,7 +10,9 @@
       "Added countdown in blood pressure input screens",
       "Added nationality field in user medication survey",
       "Added ethnicity field in user medication survey",
-      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/1.4.0-6"
+      "Navigate to 2nd blood pressure input screen after scan error",
+      "Save exercise value locally only at navigation",
+      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/1.4.1-7"
     ],
     "issues": [
       "The Terms & Conditions and Privacy Policy content needs further review before external release."
