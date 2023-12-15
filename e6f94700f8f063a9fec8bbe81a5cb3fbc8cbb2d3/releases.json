@@ -1,5 +1,28 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.4.0",
+    "buildNumber": "10",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Use 720p camera resolution",
+      "Set target FPS to 30",
+      "Set exposure duration to 33ms, ISO 25",
+      "Updated valid luminance range to >= 100 lux",
+      "Updated valid distance range (0.4m - 0.6m)",
+      "Updated to collect RGB8x8 data instead of RGB1x1",
+      "Updated server endpoint for evaluating pulse rate with RGB8x8 data",
+      "Fixed internet connection checking bug",
+      "Fixed app update required message not displaying bug",
+      "Added error dialog to disallow non-target devices from using the app",
+      "Added 'Internal Server Error' handling",
+      "Display dummy UDI on Settings page"
+    ],
+    "issues": []
+  },
+  {
     "name": "Commerical DC App",
     "version": "1.4.1",
     "buildNumber": "7",
