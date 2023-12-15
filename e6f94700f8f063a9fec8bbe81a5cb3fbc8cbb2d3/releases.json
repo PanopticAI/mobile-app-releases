@@ -2,7 +2,7 @@
   {
     "name": "FDA App",
     "version": "1.4.0",
-    "buildNumber": "10",
+    "buildNumber": "11",
     "tagPrefix": "fda-app",
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
