@@ -7,6 +7,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2023-12-15",
       "Use 720p camera resolution",
       "Set target FPS to 30",
       "Set exposure duration to 33ms, ISO 25",
@@ -20,7 +21,9 @@
       "Added 'Internal Server Error' handling",
       "Display dummy UDI on Settings page"
     ],
-    "issues": []
+    "issues": [
+      "Displaying dummy UDI on the setting page"
+    ]
   },
   {
     "name": "Commerical DC App",
@@ -328,6 +331,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2023-07-07",
       "Implemented new luminance algorithm.",
       "Implemented new distance algorithm.",
       "Updated valid distance range (0.3m to 0.4m)",
@@ -387,6 +391,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2023-05-25",
       "In starting page, added \"(KG)\" beside the weight and \"(CM)\" beside the height.",
       "When the lighting condition is not fulfilled, display message: \"Please ensure that your face is evenly and adequately lit.\".",
       "When the distance condition is not fulfilled, display message: \"Please center your face within the silhouette at a suitable distance.\".",
