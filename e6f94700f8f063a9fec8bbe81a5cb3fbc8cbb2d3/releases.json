@@ -8,7 +8,7 @@
     "plist": "DataCollectionApp.plist",
     "changes": [
       "This is a special build for PWH",
-      "Updated instruction videos to use bigger words and human voice instructions",
+      "Updated instruction videos to use bigger words, human voice audio, and changed background color",
       "Added Chinese support",
       "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.8.0-10"
     ],
