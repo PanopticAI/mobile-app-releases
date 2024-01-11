@@ -1,8 +1,8 @@
 [
   {
     "name": "Data Collection App",
-    "version": "1.9.0",
-    "buildNumber": "11",
+    "version": "1.9.1",
+    "buildNumber": "12",
     "tagPrefix": "data-collection-app",
     "tagDelimiter": "-",
     "plist": "DataCollectionApp.plist",
@@ -11,7 +11,8 @@
       "Remote Control: Added 'configSettings' command for updating camera/recording settings from JSON",
       "Implemented volume checking prior to recording",
       "Display error for unsupported camera settings",
-      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.9.0-11"
+      "Fix wrong distance metrics for FDA devices",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.9.1-12"
     ],
     "issues": [
       "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
