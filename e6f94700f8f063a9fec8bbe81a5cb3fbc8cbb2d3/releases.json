@@ -1,6 +1,24 @@
 [
   {
     "name": "Data Collection App",
+    "version": "1.9.0",
+    "buildNumber": "11",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "This is a special build for PWH",
+      "Remote Control: Added 'configSettings' command for updating camera/recording settings from JSON",
+      "Implemented volume checking prior to recording",
+      "Display error for unsupported camera settings",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.9.0-11"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
+    "name": "Data Collection App",
     "version": "1.8.0",
     "buildNumber": "10",
     "tagPrefix": "data-collection-app",
