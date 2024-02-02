@@ -1,5 +1,20 @@
 [
   {
+    "name": "Commerical DC App",
+    "version": "1.4.1",
+    "buildNumber": "8",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Updated provisioning profile (new expiration date: 10-01-2025)",
+      "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/1.4.1-8"
+    ],
+    "issues": [
+      "The Terms & Conditions and Privacy Policy content needs further review before external release."
+    ]
+  },
+  {
     "name": "Data Collection App",
     "version": "1.9.1",
     "buildNumber": "12",
@@ -78,6 +93,7 @@
       "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/1.4.1-7"
     ],
     "issues": [
+      "EXPIRED.",
       "The Terms & Conditions and Privacy Policy content needs further review before external release."
     ]
   },
@@ -95,6 +111,7 @@
       "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/1.3.0-5"
     ],
     "issues": [
+      "EXPIRED.",
       "The Terms & Conditions and Privacy Policy content needs further review before external release."
     ]
   },
@@ -115,6 +132,7 @@
       "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/110fabc3b3f3289f8a28a5509c2a530b9e27d237/docs/cdc_app_schema.md"
     ],
     "issues": [
+      "EXPIRED.",
       "The Terms & Conditions and Privacy Policy content needs further review before external release."
     ]
   },
@@ -136,7 +154,9 @@
       "Update default precision of location data collected to hundred meters",
       "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/098cd884fef8bed4dca8ab39450aed293900cb11/docs/cdc_app_schema.md"
     ],
-    "issues": []
+    "issues": [
+      "EXPIRED."
+    ]
   },
   {
     "name": "Data Collection App",
@@ -187,7 +207,9 @@
       "Support languages: en, zh-HK, zh-Hans, and zh-Hant",
       "Schema for data collection: https://github.com/PanopticAI/ios-data-collection-app-commercial/blob/6877846a07b5d50dc46a45c733c1269dda5ba02f/docs/cdc_app_schema.md"
     ],
-    "issues": []
+    "issues": [
+      "EXPIRED."
+    ]
   },
   {
     "name": "Flutter Demo App",
