@@ -1,5 +1,26 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.5.0",
+    "buildNumber": "13",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Added login, logout, delete account, and reset password feature.",
+      "Removed user input page and user's age, gender, weight, and height stored.",
+      "Added logging to AWS S3 bucket for different activities.",
+      "Added encryption and decryption for HTTP request, response, and logging.",
+      "Monitor abnormal behaviours on user authentication features with Amplify.",
+      "Removed screenshot mode.",
+      "Removed developer mode.",
+      "Updated network checking UI, and stop scanning if network error occurs."
+    ],
+    "issues": [
+      "Displaying dummy UDI on the setting page."
+    ]
+  },
+  {
     "name": "Commerical DC App",
     "version": "1.4.1",
     "buildNumber": "8",
