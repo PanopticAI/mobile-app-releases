@@ -1,5 +1,21 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.5.1",
+    "buildNumber": "14",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Moved version number and UDI to App Details screen.",
+      "Added login error check and logging for accounts that have not been set up yet.",
+      "Updated distance formula for condition checking."
+    ],
+    "issues": [
+      "Displaying dummy UDI on the setting page."
+    ]
+  },
+  {
     "name": "Commerical DC App",
     "version": "1.5.0",
     "buildNumber": "9",
