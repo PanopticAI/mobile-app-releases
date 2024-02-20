@@ -1,8 +1,8 @@
 [
   {
     "name": "Data Collection App",
-    "version": "1.10.0",
-    "buildNumber": "13",
+    "version": "1.10.1",
+    "buildNumber": "14",
     "tagPrefix": "data-collection-app",
     "tagDelimiter": "-",
     "plist": "DataCollectionApp.plist",
@@ -16,10 +16,10 @@
       "Allow blurred 2x face pixels recording, and added config for it.",
       "Display error for unsupported camera settings.",
       "Fixed incorrect lux value displayed.",
-      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.10.0-13"
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.10.1-14"
     ],
     "issues": [
-      "Displaying dummy UDI on the setting page."
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
     ]
   },
   {
