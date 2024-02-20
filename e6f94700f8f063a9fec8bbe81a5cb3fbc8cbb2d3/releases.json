@@ -1,5 +1,28 @@
 [
   {
+    "name": "Data Collection App",
+    "version": "1.10.0",
+    "buildNumber": "13",
+    "tagPrefix": "data-collection-app",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "This is a build for internal & HKU uses.",
+      "Remote Control: Added 'configSettings' command for updating camera/recording settings from JSON.",
+      "Remote Control: Added 'getFps' command for getting the last reported average FPS.",
+      "Implemented volume checking prior to recording.",
+      "Added config for minimum speaker volume required.",
+      "Added config for valid distance range.",
+      "Allow blurred 2x face pixels recording, and added config for it.",
+      "Display error for unsupported camera settings.",
+      "Fixed incorrect lux value displayed.",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/1.10.0-13"
+    ],
+    "issues": [
+      "Displaying dummy UDI on the setting page."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.5.1",
     "buildNumber": "14",
