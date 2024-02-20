@@ -13,6 +13,7 @@
       "Implemented volume checking prior to recording.",
       "Added config for minimum speaker volume required.",
       "Added config for valid distance range.",
+      "Added config for video recording on & off",
       "Allow blurred 2x face pixels recording, and added config for it.",
       "Display error for unsupported camera settings.",
       "Fixed incorrect lux value displayed.",
