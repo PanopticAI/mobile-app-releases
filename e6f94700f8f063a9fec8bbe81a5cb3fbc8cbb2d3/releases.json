@@ -1,5 +1,19 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.5.2",
+    "buildNumber": "15",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Updated valid distance range to 0.4 (inclusive) - 0.6 (inclusive)."
+    ],
+    "issues": [
+      "Displaying dummy UDI on the setting page."
+    ]
+  },
+  {
     "name": "Data Collection App",
     "version": "1.10.1",
     "buildNumber": "14",
