@@ -1,6 +1,20 @@
 [
   {
     "name": "FDA App",
+    "version": "1.5.4",
+    "buildNumber": "17",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Fixed TrustKit's security issues."
+    ],
+    "issues": [
+      "Displaying dummy UDI on the setting page."
+    ]
+  },
+  {
+    "name": "FDA App",
     "version": "1.5.3",
     "buildNumber": "16",
     "tagPrefix": "fda-app",
