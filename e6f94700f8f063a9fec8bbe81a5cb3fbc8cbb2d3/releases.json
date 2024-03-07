@@ -1,8 +1,8 @@
 [
   {
     "name": "FDA App",
-    "version": "1.5.4",
-    "buildNumber": "17",
+    "version": "1.5.5",
+    "buildNumber": "18",
     "tagPrefix": "fda-app",
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
