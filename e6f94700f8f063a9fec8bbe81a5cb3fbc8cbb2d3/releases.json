@@ -7,6 +7,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2024-3-7",
       "Fixed TrustKit's security issues."
     ],
     "issues": [
@@ -21,6 +22,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2024-3-5",
       "Fixed security issues."
     ],
     "issues": [
@@ -35,6 +37,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2024-2-27",
       "Updated valid distance range to 0.4 (inclusive) - 0.6 (inclusive)."
     ],
     "issues": [
@@ -73,6 +76,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2024-2-15",
       "Moved version number and UDI to App Details screen.",
       "Added login error check and logging for accounts that have not been set up yet.",
       "Updated distance formula for condition checking."
@@ -106,6 +110,7 @@
     "tagDelimiter": "-",
     "plist": "FdaApp.plist",
     "changes": [
+      "Release Date: 2024-2-2",
       "Added login, logout, delete account, and reset password feature.",
       "Removed user input page and user's age, gender, weight, and height stored.",
       "Added logging to AWS S3 bucket for different activities.",
