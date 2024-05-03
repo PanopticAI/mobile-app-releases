@@ -1,5 +1,28 @@
 [
   {
+    "name": "DC App - PWH",
+    "version": "2.0.0",
+    "buildNumber": "15",
+    "tagPrefix": "dc-app-pwh",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionAppPWH.plist",
+    "changes": [
+      "Fixed the incorrect lux displayed",
+      "Fixed redundant microphone permission denied error bug",
+      "Fixed missing camera re-initialisation bug associated with configSettings remote command",
+      "Updated app icon",
+      "Updated app name",
+      "Added volume checking before starting recording",
+      "Added volume checking threshold settings",
+      "Added valid distance range settings",
+      "Remote Control: Added getFps command",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/2.0.0-15"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.5.6",
     "buildNumber": "19",
