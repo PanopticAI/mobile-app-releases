@@ -10,7 +10,11 @@
     "upload-flutter":       "ts-node upload-ipa.ts  -i flutter_demo.ipa   -a flutter_demo.apk   -n \"Flutter Demo App\"    -t flutter-demo         -d \"-\"",
     "upload-fda":           "ts-node upload-ipa.ts  -i FdaApp.ipa                               -n \"FDA App\"             -t fda-app              -d \"-\"",
     "upload-wrapper":       "ts-node upload-ipa.ts  -i VitalSignWebWrapper.ipa                  -n \"Webapp Wrapper App\"  -t wrapper-app          -d \"-\"",
+    "upload-dc-app-pai":  "ts-node upload-ipa.ts  -i DataCollectionApp.ipa  -n \"DC App - PAI\" -t dc-app-pai  -d \"-\"",
+    "upload-dc-app-hku":  "ts-node upload-ipa.ts  -i DataCollectionAppHKU.ipa  -n \"DC App - HKU\" -t dc-app-hku  -d \"-\"",
+    "upload-dc-app-qmh":  "ts-node upload-ipa.ts  -i DataCollectionAppQMH.ipa  -n \"DC App - QMH\" -t dc-app-qmh  -d \"-\"",
     "upload-dc-app-pwh":  "ts-node upload-ipa.ts  -i DataCollectionAppPWH.ipa  -n \"DC App - PWH\" -t dc-app-pwh  -d \"-\"",
+    "upload-qmh-app":  "ts-node upload-ipa.ts  -i QMHApp.ipa  -n \"QMH App\" -t qmh-app  -d \"-\"",
     "upload-commercial-dc-app": "ts-node upload-ipa.ts -i CommercialDCApp.ipa -n \"Commerical DC App\" -t commercial-dc-app  -d \"-\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
