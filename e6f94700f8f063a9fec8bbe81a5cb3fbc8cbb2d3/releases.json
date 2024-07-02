@@ -1,5 +1,26 @@
 [
   {
+    "name": "DC App - HKU",
+    "version": "2.2.0",
+    "buildNumber": "17",
+    "tagPrefix": "dc-app-hku",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionAppHKU.plist",
+    "changes": [
+      "Updated instruction videos based on the HKU protocol.",
+      "Display the actual ROI when pixel recording is enabled.",
+      "Changed pixel recording to use RGB instead of YUV.",
+      "Removed blurring for pixels recording since it is already downsampled.",
+      "Removed brightness computation during recording.",
+      "Code optimisation to improve pixels recording frame rate performance.",
+      "Remote Control: update take photo command to return base64 instead.",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/2.2.0-17-hku"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
     "name": "QMH App",
     "version": "1.0.0",
     "buildNumber": "1",
