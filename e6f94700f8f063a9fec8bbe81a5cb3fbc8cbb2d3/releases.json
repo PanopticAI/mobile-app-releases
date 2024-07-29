@@ -1,5 +1,28 @@
 [
   {
+    "name": "QMH App",
+    "version": "1.1.0",
+    "buildNumber": "2",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "QMHApp.plist",
+    "changes": [
+      "Add colour palette and description for skin type survey questions.",
+      "Barcode Scanning: Add touch to reinitiate camera focus capability.",
+      "Barcode Scanning: Add green bounding box for detected barcode.",
+      "Barcode Scanning: Add confirmation dialog for detected barcode.",
+      "Barcode Scanning: Add zoom capability to camera & display zoom level on screen.",
+      "Updated patient feedback questions with visual analogue scale.",
+      "Do not clear 'ambient temperature' and 'light intensity' fields upon survey reset",
+      "Save data to app's document directory instead of S3 and allow user to access it in Files app",
+      "Add instruction text to barcode scanning page",
+      "Schema: https://github.com/PanopticAI/ios-data-collection-app-qmh/releases/tag/1.1.0-2"
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "DC App - HKU",
     "version": "2.2.0",
     "buildNumber": "17",
