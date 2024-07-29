@@ -1,5 +1,24 @@
 [
   {
+    "name": "DC App - QMH",
+    "version": "2.2.0",
+    "buildNumber": "17",
+    "tagPrefix": "dc-app-qmh",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionAppQMH.plist",
+    "changes": [
+      "Updated instruction videos to adhere to the 2min protocol in English & Chinese.",
+      "Added video cropping with ROI in-app and remote settings and UI.",
+      "Enhanced video compression to allow auto-calculate output dimensions.",
+      "Enabled Files app access for data files.",
+      "Included changes that was updated in DC App - HKU 2.2.0-17, including pixels recording & take photo remote command.",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/2.2.0-17-qmh"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds."
+    ]
+  },
+  {
     "name": "QMH App",
     "version": "1.1.0",
     "buildNumber": "2",
