@@ -1,5 +1,22 @@
 [
   {
+    "name": "DC App - HKU",
+    "version": "2.2.1",
+    "buildNumber": "18",
+    "tagPrefix": "dc-app-hku",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionAppHKU.plist",
+    "changes": [
+      "Added HKU label in home screen top action bar.",
+      "Fixed the bug of getting incorrect microphone not permitted error.",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/2.2.1-18-hku"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
+      "Remote connection using DCollect.py might fail sometimes. If this problem happens, try removing other DC apps from background, restart the device, and try again a few minutes later."
+    ]
+  },
+  {
     "name": "DC App - QMH",
     "version": "2.2.0",
     "buildNumber": "17",
