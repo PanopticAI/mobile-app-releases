@@ -1,5 +1,22 @@
 [
   {
+    "name": "QMH App",
+    "version": "1.2.0",
+    "buildNumber": "3",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "QMHApp.plist",
+    "changes": [
+      "Made age to be optional fields.",
+      "Add weight and height optional fields.",
+      "Update patient feedback section to contain both English and Cantonese.",
+      "Data Schema: https://github.com/PanopticAI/ios-data-collection-app-qmh/releases/tag/1.2.0-3"
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "DC App - QMH",
     "version": "2.2.1",
     "buildNumber": "18",
