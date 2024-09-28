@@ -1,5 +1,21 @@
 [
   {
+    "name": "QMH App",
+    "version": "1.3.0",
+    "buildNumber": "4",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "QMHApp.plist",
+    "changes": [
+      "Added 'Medication' field.",
+      "Added 'Note' field.",
+      "Data Schema: https://github.com/PanopticAI/ios-data-collection-app-qmh/releases/tag/1.3.0-4"
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "DC App - QMH",
     "version": "2.6.0",
     "buildNumber": "22",
