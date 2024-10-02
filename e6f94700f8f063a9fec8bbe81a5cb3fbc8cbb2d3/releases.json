@@ -1,5 +1,23 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.5.7",
+    "buildNumber": "20",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2024-10-02",
+      "Fixed the bug that shows ?? in health result page.",
+      "Fixed the silhouette size.",
+      "Fixed security issues.",
+      "Locked camera white balance."
+    ],
+    "issues": [
+      "Displaying dummy UDI on the setting page."
+    ]
+  },
+  {
     "name": "QMH App",
     "version": "1.3.0",
     "buildNumber": "4",
