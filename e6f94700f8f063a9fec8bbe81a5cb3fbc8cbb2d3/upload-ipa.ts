@@ -138,6 +138,9 @@ async function main() {
     .option('-n, --name <app-name>', 'The name of the app')
     .option('-t, --tag <tag-prefix>', 'The prefix of git TAG')
     .option('-d, --delimiter <tag-delimiter>', 'Optional. The delimiter of the tag, default is "_".')
+    .option('-g, --tag-name [tag-name]', 'The tag name to use for the release. If it is not set it is derived from the IPA file.')
+    .option('-v, --version [version]', 'The version of the release. If it is not set it is derived from the IPA file.')
+    .option('-b, --build-number [build-number]', 'The build number of the release. If it is not set it is derived from the IPA file.');
 
   program.parse(process.argv);
 
@@ -145,6 +148,7 @@ async function main() {
   var apkName = program.apk;
   var appName = program.name;
   var tagPrefix = program.tag;
+  var tagName = program.tagName;
   var tagDelimiter = program.delimiter || '_';
 
   if (!appName || !tagPrefix) {
@@ -171,7 +175,7 @@ async function main() {
     })
   }
 
-  var options = {
+  var options:any = {
     token: token,
     owner: config.githubOwner,
     repo: config.githubRepo,
@@ -179,6 +183,21 @@ async function main() {
     tagPrefix,
     tagDelimiter
   };
+
+  if (!ipaName && (!program.tagName || !program.version || !program.buildNumber)) {
+    console.error("You must provide either the IPA file or the tag name, version and build number.");
+    process.exit(-1);
+  }
+
+  if (tagName) {
+    options.tag = tagName;
+  }
+  if (program.version) {
+    options.version = program.version;
+  }
+  if (program.buildNumber) {
+    options.buildNumber = program.buildNumber;
+  }
 
   let result = await uploader.upload(options);
   console.log('\n');
