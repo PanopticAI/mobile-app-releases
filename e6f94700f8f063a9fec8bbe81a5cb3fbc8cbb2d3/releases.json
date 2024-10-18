@@ -1,5 +1,40 @@
 [
   {
+    "name": "Android DC App - PAI",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "tagPrefix": "android-dc-app-pai",
+    "tagDelimiter": "-",
+    "apk": "Android_DC_App_PAI.apk",
+    "changes": [
+      "Release date: 2024-10-18",
+      "Record video.",
+      "Enable/Disable audio recording.",
+      "Record face landmarks.",
+      "Record timestamps.",
+      "Configure camera and data collection settings.",
+      "Display data collection instruction video.",
+      "Remote control: Start/Stop recording.",
+      "Remote control: Download data file.",
+      "Remote control: Delete data file(s).",
+      "Remote control: List data files.",
+      "Remote control: Start/Stop camera.",
+      "Remote control: Re-initialise camera.",
+      "Remote control: Get current remaining storage.",
+      "Remote control: Get current recording state.",
+      "Remote control: Set instruction video to display.",
+      "Remote control: Configure settings with JSON file.",
+      "Remote control: Get last reported average FPS of the camera.",
+      "Remote control: Take a screenshot.",
+      "Remote control: Get if the subject is centered.",
+      "Download via USB cable."
+    ],
+    "issues": [
+      "Face detector could be very slow.",
+      "Maximum data file size is 4GB. The app will crash once 4GB is reached."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.5.7",
     "buildNumber": "20",
