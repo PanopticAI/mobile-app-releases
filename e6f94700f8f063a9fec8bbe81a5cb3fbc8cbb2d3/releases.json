@@ -27,7 +27,8 @@
       "Remote control: Get last reported average FPS of the camera.",
       "Remote control: Take a screenshot.",
       "Remote control: Get if the subject is centered.",
-      "Download via USB cable."
+      "Download via USB cable.",
+      "DCollect.py: https://github.com/PanopticAI/android-data-collection-app/releases/tag/1.0.0-1"
     ],
     "issues": [
       "Face detector could be very slow.",
