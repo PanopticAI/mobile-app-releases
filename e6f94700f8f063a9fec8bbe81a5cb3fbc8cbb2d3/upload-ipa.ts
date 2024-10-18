@@ -6,7 +6,7 @@ import open from 'open';
 const program = require('commander');
 const config = require('./config.json');
 
-async function updateReleasesJson(version:string, buildNumber:string, plist:string, name:string, tagPrefix:string, tagDelimiter:string, apk?:string):Promise<void> {
+async function updateReleasesJson(version:string, buildNumber:string, plist:string|undefined, name:string, tagPrefix:string, tagDelimiter:string, apk?:string):Promise<void> {
 
   var releasesFilePath = path.join(__dirname, 'releases.json');
 
@@ -147,19 +147,23 @@ async function main() {
   var tagPrefix = program.tag;
   var tagDelimiter = program.delimiter || '_';
 
-  if (!ipaName || !appName || !tagPrefix) {
+  if (!appName || !tagPrefix) {
     program.help();
     process.exit(-1);
   }
 
   let token = await githubOauth();
 
-  let binaries:[{path:string, iconURL?:string}] = [
-    {
-      path: path.join(__dirname, ipaName),
-      iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
-    },
-  ];
+  let binaries:{path:string, iconURL?:string}[] = [];
+  
+  if (ipaName) {
+    binaries.push(
+      {
+        path: path.join(__dirname, ipaName),
+        iconURL: `https://${config.githubOwner.toLowerCase()}.github.io/${config.githubRepo}/app-icon-120.png`
+      },
+    );
+  }
 
   if (apkName) {
     binaries.push({
