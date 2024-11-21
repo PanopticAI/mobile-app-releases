@@ -1,5 +1,25 @@
 [
   {
+    "name": "DC App - HKU",
+    "version": "2.4.0",
+    "buildNumber": "20",
+    "tagPrefix": "dc-app-hku",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionAppHKU.plist",
+    "changes": [
+      "Release date: 2024-11-21",
+      "Added support for high fps (i.e., 60-240fps).",
+      "Made data filenames' timestamp consistent for each recording session.",
+      "Added configuration for torch mode during recording.",
+      "Remote Command: Updated configSettings JSON schema for 'format' & 'videoRecordingTorchMode'.",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/2.4.0-20-hku"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
+      "Remote connection using DCollect.py might fail sometimes. If this problem happens, try removing other DC apps from background, restart the device, and try again a few minutes later. Else, please use a router."
+    ]
+  },
+  {
     "name": "DC App - QMH",
     "version": "2.7.0",
     "buildNumber": "23",
