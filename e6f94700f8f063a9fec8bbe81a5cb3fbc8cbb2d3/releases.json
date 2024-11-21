@@ -1,6 +1,23 @@
 [
   {
     "name": "DC App - QMH",
+    "version": "2.9.0",
+    "buildNumber": "25",
+    "tagPrefix": "dc-app-qmh",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionAppQMH.plist",
+    "changes": [
+      "Release date: 2024-11-21",
+      "Add config for enable/disable face detection.",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/2.9.0-25-qmh"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
+      "Remote connection using DCollect.py might fail sometimes. If this problem happens, try removing other DC apps from background, restart the device, and try again a few minutes later. Else, please use a router."
+    ]
+  },
+  {
+    "name": "DC App - QMH",
     "version": "2.8.0",
     "buildNumber": "24",
     "tagPrefix": "dc-app-qmh",
