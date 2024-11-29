@@ -1,5 +1,22 @@
 [
   {
+    "name": "DC App - QMH",
+    "version": "2.9.1",
+    "buildNumber": "26",
+    "tagPrefix": "dc-app-qmh",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionAppQMH.plist",
+    "changes": [
+      "Release date: 2024-11-29",
+      "Fixed app crash bug due to simultaneous file write.",
+      "DCollect.py: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/2.9.1-26-qmh"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
+      "Remote connection using DCollect.py might fail sometimes. If this problem happens, try removing other DC apps from background, restart the device, and try again a few minutes later. Else, please use a router."
+    ]
+  },
+  {
     "name": "DC App - HKU",
     "version": "2.5.1",
     "buildNumber": "22",
