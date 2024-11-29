@@ -1,5 +1,18 @@
 [
   {
+    "name": "Ventria iPad App",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "tagPrefix": "ventria-wrapper-app",
+    "tagDelimiter": "-",
+    "plist": "VentriaWebWrapper.plist",
+    "changes": [
+      "Initial release"
+    ],
+    "issues": [
+    ]
+  },
+  {
     "name": "DC App - QMH",
     "version": "2.9.1",
     "buildNumber": "26",
