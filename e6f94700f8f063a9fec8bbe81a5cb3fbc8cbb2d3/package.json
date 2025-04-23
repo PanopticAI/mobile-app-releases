@@ -18,6 +18,7 @@
     "upload-qmh-app":  "ts-node upload-ipa.ts  -i QMHApp.ipa  -n \"QMH App\" -t qmh-app  -d \"-\"",
     "upload-commercial-dc-app": "ts-node upload-ipa.ts -i CommercialDCApp.ipa -n \"Commerical DC App\" -t commercial-dc-app  -d \"-\"",
     "upload-android-dc-app-pai": "ts-node upload-ipa.ts  -a Android_DC_App_PAI.apk  -n \"Android DC App - PAI\" -t android-dc-app-pai  -d \"-\" -v 1.0.0 -b 1",
+    "upload-my-vitals-demo": "ts-node upload-ipa.ts  -i MyVitals.ipa  -n \"MyVitals - Demo\"   -t my-vitals-demo        -d \"-\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eddie Lau",

@@ -1,5 +1,21 @@
 [
   {
+    "name": "MyVitals - Demo",
+    "version": "1.0.0",
+    "buildNumber": "4",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-04-23",
+      "User authentication, including sign in, sign out, forgot password, and delete account.",
+      "30s health scan, with vital signs including pulse rate, blood pressure, breathing rate, SpO2, HRV SDNN, HRV IBI, and stress level."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "DC App - HKU",
     "version": "2.6.0",
     "buildNumber": "23",
@@ -28,8 +44,7 @@
     "changes": [
       "Initial release"
     ],
-    "issues": [
-    ]
+    "issues": []
   },
   {
     "name": "DC App - QMH",
