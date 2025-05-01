@@ -1,6 +1,23 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.1.0",
+    "buildNumber": "5",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-05-01",
+      "Updated scan page UI to show chest area.",
+      "Added icons in health result page.",
+      "Fixed reset password page app crashing bug."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.0.0",
     "buildNumber": "4",
     "tagPrefix": "my-vitals-demo",
