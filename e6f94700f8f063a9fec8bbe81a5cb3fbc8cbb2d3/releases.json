@@ -2,6 +2,21 @@
   {
     "name": "MyVitals - Demo",
     "version": "1.1.0",
+    "buildNumber": "6",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-05-02",
+      "Improved error handling logic."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
+    "version": "1.1.0",
     "buildNumber": "5",
     "tagPrefix": "my-vitals-demo",
     "tagDelimiter": "-",
