@@ -1,6 +1,28 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.2.0",
+    "buildNumber": "8",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-05-09",
+      "Changed all user authentication logic to use Amplify.",
+      "Updated camera exposure time to avoid light flickering problem.",
+      "Added account expiry error handling on the scan page.",
+      "Replaced delete account with contact support feature.",
+      "Updated the contact support email.",
+      "Improved network checking logic.",
+      "Updated to use a new API Key.",
+      "Updated to use V2 production endpoint."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.1.0",
     "buildNumber": "7",
     "tagPrefix": "my-vitals-demo",
