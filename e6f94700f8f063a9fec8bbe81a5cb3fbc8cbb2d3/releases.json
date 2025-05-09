@@ -9,6 +9,7 @@
     "changes": [
       "Release date: 2025-05-09",
       "Changed all user authentication logic to use Amplify.",
+      "Added 1st login reset password logic",
       "Updated camera exposure time to avoid light flickering problem.",
       "Added account expiry error handling on the scan page.",
       "Replaced delete account with contact support feature.",
