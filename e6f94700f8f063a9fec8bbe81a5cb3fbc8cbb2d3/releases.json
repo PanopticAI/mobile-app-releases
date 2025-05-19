@@ -1,6 +1,22 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.2.2",
+    "buildNumber": "10",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-05-19",
+      "Removed 3-second countdown before the start button shows.",
+      "Added a 0.5-second delay after the start button is clicked before the scan actually starts."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.2.1",
     "buildNumber": "9",
     "tagPrefix": "my-vitals-demo",
