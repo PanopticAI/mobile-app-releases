@@ -1,6 +1,22 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.2.1",
+    "buildNumber": "9",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-05-19",
+      "Changed age restriction limit from 18-60 to 18-120.",
+      "Removed dummy UDI in settings page."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.2.0",
     "buildNumber": "8",
     "tagPrefix": "my-vitals-demo",
