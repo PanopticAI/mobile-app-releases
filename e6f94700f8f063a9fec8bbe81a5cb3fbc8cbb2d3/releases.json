@@ -1,5 +1,27 @@
 [
   {
+    "name": "DC App - PAI",
+    "version": "3.0.0",
+    "buildNumber": "24",
+    "tagPrefix": "dc-app-pai",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Release date: 2025-06-30",
+      "Added User Authentication - require username & password to login.",
+      "Added Encryption - All data files, requests, and response data are encrypted.",
+      "Improved UI, improved UX for subjects, e.g., error instructions.",
+      "Recording Session - control only via remote commands.",
+      "Menu - Display read-only settings.",
+      "Remote Commands - A big revamp, with added & updated & removed APIs.",
+      "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.0.0-24-pai"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
+      "Remote connection using dc_app_api.py might fail sometimes. If this problem happens, try removing other DC apps from background, restart the device, and try again a few minutes later. Else, please use a router."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "1.2.2",
     "buildNumber": "10",
