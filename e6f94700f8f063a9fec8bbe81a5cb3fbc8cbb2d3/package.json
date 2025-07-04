@@ -7,18 +7,19 @@
     "serve": "http-server",
     "start": "node upload-ipa.js -m adhoc",
     "upload-vitals-mobile": "ts-node upload-ipa.ts  -i Vitals.Mobile.ipa  -a Vitals.Mobile.apk  -n \"itals™ Mobile App\"   -t vitals-mobile        -d \"-\"",
-    "upload-flutter":       "ts-node upload-ipa.ts  -i flutter_demo.ipa   -a flutter_demo.apk   -n \"Flutter Demo App\"    -t flutter-demo         -d \"-\"",
-    "upload-fda":           "ts-node upload-ipa.ts  -i FdaApp.ipa                               -n \"FDA App\"             -t fda-app              -d \"-\"",
-    "upload-wrapper":       "ts-node upload-ipa.ts  -i VitalSignWebWrapper.ipa                  -n \"Webapp Wrapper App\"  -t wrapper-app          -d \"-\"",
+    "upload-flutter": "ts-node upload-ipa.ts  -i flutter_demo.ipa   -a flutter_demo.apk   -n \"Flutter Demo App\"    -t flutter-demo         -d \"-\"",
+    "upload-fda": "ts-node upload-ipa.ts  -i FdaApp.ipa                               -n \"FDA App\"             -t fda-app              -d \"-\"",
+    "upload-wrapper": "ts-node upload-ipa.ts  -i VitalSignWebWrapper.ipa                  -n \"Webapp Wrapper App\"  -t wrapper-app          -d \"-\"",
     "upload-ventria-wrapper": "ts-node upload-ipa.ts  -i VentriaWebWrapper.ipa                  -n \"Ventria iPad App\" -t ventria-wrapper-app -d \"-\"",
-    "upload-dc-app-pai":  "ts-node upload-ipa.ts  -i DataCollectionApp.ipa  -n \"DC App - PAI\" -t dc-app-pai  -d \"-\"",
-    "upload-dc-app-hku":  "ts-node upload-ipa.ts  -i DataCollectionAppHKU.ipa  -n \"DC App - HKU\" -t dc-app-hku  -d \"-\"",
-    "upload-dc-app-qmh":  "ts-node upload-ipa.ts  -i DataCollectionAppQMH.ipa  -n \"DC App - QMH\" -t dc-app-qmh  -d \"-\"",
-    "upload-dc-app-pwh":  "ts-node upload-ipa.ts  -i DataCollectionAppPWH.ipa  -n \"DC App - PWH\" -t dc-app-pwh  -d \"-\"",
-    "upload-qmh-app":  "ts-node upload-ipa.ts  -i QMHApp.ipa  -n \"QMH App\" -t qmh-app  -d \"-\"",
+    "upload-dc-app-pai": "ts-node upload-ipa.ts  -i DataCollectionApp.ipa  -n \"DC App - PAI\" -t dc-app-pai  -d \"-\"",
+    "upload-dc-app-hku": "ts-node upload-ipa.ts  -i DataCollectionAppHKU.ipa  -n \"DC App - HKU\" -t dc-app-hku  -d \"-\"",
+    "upload-dc-app-qmh": "ts-node upload-ipa.ts  -i DataCollectionAppQMH.ipa  -n \"DC App - QMH\" -t dc-app-qmh  -d \"-\"",
+    "upload-dc-app-pwh": "ts-node upload-ipa.ts  -i DataCollectionAppPWH.ipa  -n \"DC App - PWH\" -t dc-app-pwh  -d \"-\"",
+    "upload-qmh-app": "ts-node upload-ipa.ts  -i QMHApp.ipa  -n \"QMH App\" -t qmh-app  -d \"-\"",
     "upload-commercial-dc-app": "ts-node upload-ipa.ts -i CommercialDCApp.ipa -n \"Commerical DC App\" -t commercial-dc-app  -d \"-\"",
     "upload-android-dc-app-pai": "ts-node upload-ipa.ts  -a Android_DC_App_PAI.apk  -n \"Android DC App - PAI\" -t android-dc-app-pai  -d \"-\" -v 1.0.0 -b 1",
     "upload-my-vitals-demo": "ts-node upload-ipa.ts  -i MyVitals.ipa  -n \"MyVitals - Demo\"   -t my-vitals-demo        -d \"-\"",
+    "upload-myvitals-ios-fda-bp": "ts-node upload-ipa.ts  -i FdaBp.ipa  -n \"MyVitals (iOS FDA BP)\"   -t myvitals-ios-fda-bp        -d \"-\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eddie Lau",
@@ -42,5 +43,6 @@
     "open": "^8.4.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

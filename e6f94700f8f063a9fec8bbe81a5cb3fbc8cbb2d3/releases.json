@@ -1,5 +1,25 @@
 [
   {
+    "name": "MyVitals (iOS FDA BP)",
+    "version": "1.0.0",
+    "buildNumber": "b1",
+    "tagPrefix": "myvitals-ios-fda-bp",
+    "tagDelimiter": "-",
+    "plist": "FdaBp.plist",
+    "changes": [
+      "Release date: 2025-07-04",
+      "Onboarding screens for user guidance.",
+      "User Authentication with FDA BP user pool, including login, logout, and forgot password.",
+      "User profile inputs including gender, age, weight, and height.",
+      "Scan condition checkings, network checking, signal quality checking, etc.",
+      "30-second scan with Pulse Rate, Blood Pressure, and Breathing Rate results.",
+      "Menu page including features such as customer support and delete account."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "DC App - PAI",
     "version": "3.0.0",
     "buildNumber": "24",
