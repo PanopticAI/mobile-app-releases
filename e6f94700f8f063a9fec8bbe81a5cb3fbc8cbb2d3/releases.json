@@ -1,8 +1,8 @@
 [
   {
     "name": "MyVitals (iOS FDA BP)",
-    "version": "1.0.0-b1",
-    "buildNumber": "1",
+    "version": "1.0.0",
+    "buildNumber": "b1",
     "tagPrefix": "myvitals-ios-fda-bp",
     "tagDelimiter": "-",
     "plist": "FdaBp.plist",
