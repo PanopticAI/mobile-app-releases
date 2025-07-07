@@ -8,7 +8,8 @@
     "plist": "DataCollectionApp.plist",
     "changes": [
       "Release date: 2025-07-07",
-      "Package data files into single ZIP archive."
+      "Package data files into single ZIP archive.",
+      "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.1.0-26-pai"
     ],
     "issues": [
       "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
@@ -24,7 +25,8 @@
     "plist": "DataCollectionApp.plist",
     "changes": [
       "Release date: 2025-07-04",
-      "Fixed the camera preview freezed problem."
+      "Fixed the camera preview freezed problem.",
+      "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.0.1-25-pai"
     ],
     "issues": [
       "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
