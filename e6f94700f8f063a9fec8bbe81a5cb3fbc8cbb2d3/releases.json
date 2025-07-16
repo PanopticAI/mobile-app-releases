@@ -1,6 +1,24 @@
 [
   {
     "name": "DC App - PAI",
+    "version": "3.2.0",
+    "buildNumber": "27",
+    "tagPrefix": "dc-app-pai",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Release date: 2025-07-16",
+      "Update user authentication logic with expiry date.",
+      "Remove shutter sound for take photo if supported.",
+      "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.1.0-26-pai"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
+      "Remote connection using dc_app_api.py might fail sometimes. If this problem happens, try removing other DC apps from background, restart the device, and try again a few minutes later. Else, please use a router."
+    ]
+  },
+  {
+    "name": "DC App - PAI",
     "version": "3.1.0",
     "buildNumber": "26",
     "tagPrefix": "dc-app-pai",
