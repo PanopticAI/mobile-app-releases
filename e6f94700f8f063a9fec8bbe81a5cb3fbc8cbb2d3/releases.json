@@ -10,7 +10,7 @@
       "Release date: 2025-07-16",
       "Update user authentication logic with expiry date.",
       "Remove shutter sound for take photo if supported.",
-      "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.1.0-26-pai"
+      "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.2.0-27-pai"
     ],
     "issues": [
       "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
