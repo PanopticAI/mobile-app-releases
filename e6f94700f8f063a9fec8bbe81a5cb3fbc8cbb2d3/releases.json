@@ -1,5 +1,18 @@
 [
   {
+    "name": "MyVitals - Demo",
+    "version": "1.2.2",
+    "buildNumber": "11",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-08-18",
+      "Rebuilt v1.2.2-10"
+    ],
+    "issues": ["No known issue."]
+  },
+  {
     "name": "DC App - PAI",
     "version": "3.5.1",
     "buildNumber": "35",
