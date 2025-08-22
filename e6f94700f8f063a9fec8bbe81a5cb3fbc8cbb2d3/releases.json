@@ -1,5 +1,22 @@
 [
   {
+    "name": "QMH App",
+    "version": "1.4.0",
+    "buildNumber": "5",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "QMHApp.plist",
+    "changes": [
+      "Release date: 2025-08-22",
+      "Added load data and update data feature.",
+      "Added data encryption.",
+      "Updated schema to 2.0.0 and added survey questions accordingly."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "1.2.2",
     "buildNumber": "11",
@@ -10,7 +27,9 @@
       "Release date: 2025-08-18",
       "Rebuilt v1.2.2-10"
     ],
-    "issues": ["No known issue."]
+    "issues": [
+      "No known issue."
+    ]
   },
   {
     "name": "DC App - PAI",
