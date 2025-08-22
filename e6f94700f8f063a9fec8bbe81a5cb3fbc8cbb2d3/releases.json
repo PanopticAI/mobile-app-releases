@@ -1,5 +1,26 @@
 [
   {
+    "name": "MyVitals (iOS FDA BP)",
+    "version": "1.0.0",
+    "buildNumber": "b2",
+    "tagPrefix": "myvitals-ios-fda-bp",
+    "tagDelimiter": "-",
+    "plist": "FdaBp.plist",
+    "changes": [
+      "Release date: 2025-08-22",
+      "A special build for QMH.",
+      "Added device model checking to only allow iPhone 13 Pro and iPad Air 5th Generation.",
+      "Used schema 2 production endpoint instead of FDA BP endpoint for scanning.",
+      "Disabled blink detection",
+      "Implemented automatic reset for prior subject's gender, age, weight, and height entries.",
+      "Implemented automatic reset for sign in page error after forgetting password.",
+      "Speeded up loading indicator animation."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "QMH App",
     "version": "1.4.0",
     "buildNumber": "5",
