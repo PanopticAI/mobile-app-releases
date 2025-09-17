@@ -1,5 +1,25 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.6.0",
+    "buildNumber": "21",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2025-09-17",
+      "Updated to have auto start scanning turned off by default.",
+      "Showed respiratory rate in the result page.",
+      "Added respiratory rate signal quality check.",
+      "Fixed a typo in the title of reset password attempt limit exceed dialog.",
+      "Updated to have 1s delay after start button is clicked and before the scan actually starts.",
+      "Showed internal server error if heart rate or respiratory rate is/are not within their supported range."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "MyVitals (iOS FDA BP)",
     "version": "1.0.0",
     "buildNumber": "b2",
