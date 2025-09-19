@@ -1,6 +1,21 @@
 [
   {
     "name": "FDA App",
+    "version": "1.6.1",
+    "buildNumber": "22",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2025-09-19",
+      "Fixed the chest pixel extraction format from mean RGB Tx1 to mean RGB Tx3."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "FDA App",
     "version": "1.6.0",
     "buildNumber": "21",
     "tagPrefix": "fda-app",
