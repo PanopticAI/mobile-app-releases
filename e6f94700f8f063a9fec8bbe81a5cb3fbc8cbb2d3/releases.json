@@ -1,5 +1,23 @@
 [
   {
+    "name": "MyVitals (iOS FDA BP)",
+    "version": "1.0.0",
+    "buildNumber": "b3",
+    "tagPrefix": "myvitals-ios-fda-bp",
+    "tagDelimiter": "-",
+    "plist": "FdaBp.plist",
+    "changes": [
+      "Release date: 2025-10-11",
+      "Updated to use latest UI for scan and health result page.",
+      "Used the FDA BP production endpoint.",
+      "Updated dependencies to use same versions as FDA RR app (i.e., with security fixes).",
+      "Fixed any potential security vulnerabilities found in the frontend code."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "DC App - PAI",
     "version": "3.6.0",
     "buildNumber": "36",
