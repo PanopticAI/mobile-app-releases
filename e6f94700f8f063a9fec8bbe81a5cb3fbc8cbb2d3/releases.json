@@ -1,6 +1,22 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.3.0",
+    "buildNumber": "13",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-11-20",
+      "Updated camera to use strict precision mode settings.",
+      "Added developer mode to use schema 2 dev endpoint with debug mode on and blink detection off."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.2.2",
     "buildNumber": "12",
     "tagPrefix": "my-vitals-demo",
