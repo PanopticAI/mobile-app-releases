@@ -8,7 +8,7 @@
     "plist": "MyVitals.plist",
     "changes": [
       "Release date: 2025-11-28",
-      "Updated camera to use 20ms exposure duration."
+      "Fixed camera flickering problem."
     ],
     "issues": [
       "No known issue."
