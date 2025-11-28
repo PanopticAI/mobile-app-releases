@@ -1,6 +1,21 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.3.1",
+    "buildNumber": "14",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-11-28",
+      "Updated camera to use 20ms exposure duration."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.3.0",
     "buildNumber": "13",
     "tagPrefix": "my-vitals-demo",
