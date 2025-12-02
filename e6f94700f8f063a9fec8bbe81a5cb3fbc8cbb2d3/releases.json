@@ -1,6 +1,28 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.4.0",
+    "buildNumber": "15",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-12-02",
+      "Added Respiratory Rate signal quality checking.",
+      "Updated start scan delay from 0.5 to 1 second.",
+      "Updated person overlay with animation from transparent to white color.",
+      "Updated camera to use continuous auto exposure mode for fixing flickering problem.",
+      "Added waist circumference in user profile and result page.",
+      "Updated user profile page to show errors all at once.",
+      "Updated vital sign result card UI with category badge.",
+      "Added vital signs supported in the result page, including General Wellness, HRV RMSSD, Cardiac Workload, PRQ, WtHR, ABSI, ABSIZ, and BMI."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.3.1",
     "buildNumber": "14",
     "tagPrefix": "my-vitals-demo",
