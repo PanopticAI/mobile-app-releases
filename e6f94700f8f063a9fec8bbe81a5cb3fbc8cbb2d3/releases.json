@@ -1,6 +1,22 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.6.0",
+    "buildNumber": "17",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-12-03",
+      "Updated blood pressure's supported range to SYS 60-260 and DIA 40-160.",
+      "Added poor signal quality indicator popup UI in result page."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.5.0",
     "buildNumber": "16",
     "tagPrefix": "my-vitals-demo",
