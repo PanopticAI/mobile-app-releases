@@ -1,6 +1,22 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "1.5.0",
+    "buildNumber": "16",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-12-03",
+      "Added Blood Pressure signal quality checking.",
+      "Updated Respiratory Rate poor signal quality indicator in result page."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "1.4.0",
     "buildNumber": "15",
     "tagPrefix": "my-vitals-demo",
