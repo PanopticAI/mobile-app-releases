@@ -2,6 +2,21 @@
   {
     "name": "MyVitals - Demo",
     "version": "1.6.0",
+    "buildNumber": "18",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2025-12-05",
+      "Disabled blink detection."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
+    "version": "1.6.0",
     "buildNumber": "17",
     "tagPrefix": "my-vitals-demo",
     "tagDelimiter": "-",
