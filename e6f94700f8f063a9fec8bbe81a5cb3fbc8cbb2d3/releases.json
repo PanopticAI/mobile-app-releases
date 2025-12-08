@@ -1,5 +1,20 @@
 [
   {
+    "name": "QMH App",
+    "version": "1.5.0",
+    "buildNumber": "6",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2025-12-08",
+      "Added audio player for checking volume comfort level."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "1.6.0",
     "buildNumber": "19",
