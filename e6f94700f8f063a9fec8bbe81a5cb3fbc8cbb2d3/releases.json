@@ -1,6 +1,21 @@
 [
   {
     "name": "QMH App",
+    "version": "1.6.0",
+    "buildNumber": "7",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-01-15",
+      "Updated ethnicity field to be dropdown picker"
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "QMH App",
     "version": "1.5.0",
     "buildNumber": "6",
     "tagPrefix": "qmh-app",
