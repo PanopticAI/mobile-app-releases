@@ -1,5 +1,22 @@
 [
   {
+    "name": "DC App - PAI",
+    "version": "3.7.0",
+    "buildNumber": "38",
+    "tagPrefix": "dc-app-pai",
+    "tagDelimiter": "-",
+    "plist": "DataCollectionApp.plist",
+    "changes": [
+      "Release date: 2026-01-27",
+      "Rebuilt v3.7.0-37.",
+      "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.7.0-38-pai"
+    ],
+    "issues": [
+      "WiFi download is not 100% stable. If this problem happens, use USB or AirDrop download as workarounds.",
+      "Remote connection using dc_app_api.py might fail sometimes. If this problem happens, try removing other DC apps from background, restart the device, and try again a few minutes later. Else, please use a router."
+    ]
+  },
+  {
     "name": "QMH App",
     "version": "1.6.0",
     "buildNumber": "7",
