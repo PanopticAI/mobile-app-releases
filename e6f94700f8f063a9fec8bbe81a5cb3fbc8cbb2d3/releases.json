@@ -1,5 +1,23 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.6.1",
+    "buildNumber": "b1",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2026-02-06",
+      "Special build for QMH only.",
+      "Disabled blink detection.",
+      "Updated login session expiry from one month to every start of the day.",
+      "Disabled mandatory app updates for beta versions."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "DC App - PAI",
     "version": "3.7.0",
     "buildNumber": "38",
