@@ -1,5 +1,21 @@
 [
   {
+    "name": "QMH App",
+    "version": "1.7.0",
+    "buildNumber": "8",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-02-06",
+      "Added login page with network checking, sign-in locking, and 1-day login session expiration.",
+      "Added logout button in the settings page."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.6.1",
     "buildNumber": "b1",
