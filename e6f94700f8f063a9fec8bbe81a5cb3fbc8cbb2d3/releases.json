@@ -2,6 +2,21 @@
   {
     "name": "QMH App",
     "version": "1.7.0",
+    "buildNumber": "9",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-02-11",
+      "Fixed a sign-in bug that occurred when the user deleted the app after signing in."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "QMH App",
+    "version": "1.7.0",
     "buildNumber": "8",
     "tagPrefix": "qmh-app",
     "tagDelimiter": "-",
