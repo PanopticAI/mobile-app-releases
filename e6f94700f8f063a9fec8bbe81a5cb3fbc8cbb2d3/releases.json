@@ -1,6 +1,35 @@
 [
   {
     "name": "QMH App",
+    "version": "1.8.0",
+    "buildNumber": "10",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-02-11",
+      "Added race (multi-select) and updated ethnicity model",
+      "Introduced Monk skin-tone scale with color preview",
+      "Added distance, light source, motion, and subject state fields",
+      "Added vital signs: HR, RR, SpO₂, SBP, DBP and hypertension stage",
+      "Made age required; body temperature optional",
+      "Introduced dynamic lists for chronic medications and other chronic diseases",
+      "Auto-generated isHealthy, takingMedication, and BMI fields from form inputs",
+      "Added null-value support for optional fields in data output",
+      "Replaced dataCollectionDate with collectionDatetime (ISO 8601 UTC)",
+      "Added dataset, deviceBrand, deviceModel, deviceType, and deviceOS metadata fields",
+      "Sorted JSON keys alphabetically before encryption and rotated the encryption key",
+      "Simplified file naming to UTC format: yyyyMMdd_HHmm_<random>",
+      "Reorganized survey form sections for improved flow",
+      "Ensured compatibility with Xcode 26",
+      "Updated encryption key"
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "QMH App",
     "version": "1.7.0",
     "buildNumber": "9",
     "tagPrefix": "qmh-app",
