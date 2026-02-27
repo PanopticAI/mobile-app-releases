@@ -1,13 +1,29 @@
 [
   {
     "name": "QMH App",
+    "version": "1.8.1",
+    "buildNumber": "11",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-02-27",
+      "Fixed monk skin tone selector UI bug",
+      "Updated Eye-Level Distance to be in cm unit"
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "QMH App",
     "version": "1.8.0",
     "buildNumber": "10",
     "tagPrefix": "qmh-app",
     "tagDelimiter": "-",
     "plist": "DCSurveyApp.plist",
     "changes": [
-      "Release date: 2026-02-11",
+      "Release date: 2026-02-26",
       "Added race (multi-select) and updated ethnicity model",
       "Introduced Monk skin-tone scale with color preview",
       "Added distance, light source, motion, and subject state fields",
