@@ -1,5 +1,21 @@
 [
   {
+    "name": "MyVitals - Demo",
+    "version": "1.7.0",
+    "buildNumber": "20",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2026-03-02",
+      "Updated bottom tab bar and scan flow UI following the latest MyVitals Figma design.",
+      "Updated vital sign cards UI with beta badge and updated poor signal quality UI."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "QMH App",
     "version": "1.8.1",
     "buildNumber": "11",
