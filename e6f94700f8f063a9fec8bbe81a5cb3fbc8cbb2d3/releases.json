@@ -2,6 +2,22 @@
   {
     "name": "MyVitals - Demo",
     "version": "1.7.0",
+    "buildNumber": "21",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Release date: 2026-03-03",
+      "Fixed health result card's margin.",
+      "Fixed bottom tab bar's settings icon size."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
+    "version": "1.7.0",
     "buildNumber": "20",
     "tagPrefix": "my-vitals-demo",
     "tagDelimiter": "-",
