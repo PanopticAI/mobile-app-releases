@@ -1,5 +1,20 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.6.1",
+    "buildNumber": "b2",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2026-03-06",
+      "Disabled signal quality checking"
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "1.7.0",
     "buildNumber": "21",
