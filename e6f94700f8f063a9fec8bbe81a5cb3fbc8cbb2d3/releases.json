@@ -2,6 +2,22 @@
   {
     "name": "FDA App",
     "version": "1.6.1",
+    "buildNumber": "b4",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2026-03-10",
+      "Special build for QMH only.",
+      "Implemented a settings config option to enable / disable the 60s start scan delay."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "FDA App",
+    "version": "1.6.1",
     "buildNumber": "b3",
     "tagPrefix": "fda-app",
     "tagDelimiter": "-",
