@@ -8,6 +8,7 @@
     "plist": "FdaApp.plist",
     "changes": [
       "Release date: 2026-03-09",
+      "Special build for QMH only.",
       "Updated start scan delay from 1s to 1min (with face lost checking)",
       "Disabled logging to S3 bucket feature"
     ],
@@ -24,6 +25,7 @@
     "plist": "FdaApp.plist",
     "changes": [
       "Release date: 2026-03-06",
+      "Special build for QMH only.",
       "Disabled signal quality checking"
     ],
     "issues": [
