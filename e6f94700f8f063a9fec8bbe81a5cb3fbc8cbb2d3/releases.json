@@ -2,6 +2,22 @@
   {
     "name": "FDA App",
     "version": "1.6.1",
+    "buildNumber": "b6",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2026-03-11",
+      "Special build for QMH only.",
+      "Removed red bounding box during scan (since we already got the silhouette).",
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
+    "name": "FDA App",
+    "version": "1.6.1",
     "buildNumber": "b5",
     "tagPrefix": "fda-app",
     "tagDelimiter": "-",
