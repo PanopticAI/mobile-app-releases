@@ -1,5 +1,21 @@
 [
   {
+    "name": "QMH App",
+    "version": "1.8.1",
+    "buildNumber": "12",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-03-11",
+      "A build for GHK.",
+      "Updated barcode scanning feature to handle patient number in JSON format."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.6.1",
     "buildNumber": "b4",
