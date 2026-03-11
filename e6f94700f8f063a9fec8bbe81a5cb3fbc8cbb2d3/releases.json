@@ -1,5 +1,24 @@
 [
   {
+    "name": "FDA App",
+    "version": "1.6.1",
+    "buildNumber": "b5",
+    "tagPrefix": "fda-app",
+    "tagDelimiter": "-",
+    "plist": "FdaApp.plist",
+    "changes": [
+      "Release date: 2026-03-11",
+      "Special build for QMH only.",
+      "Added eye blocking black box.",
+      "Updated silhouette and show it during the entire scan period.",
+      "Increased instruction font size during scan.",
+      "Updated instruction text during scan."
+    ],
+    "issues": [
+      "No known issue."
+    ]
+  },
+  {
     "name": "QMH Survey App",
     "version": "1.8.1",
     "buildNumber": "12",
