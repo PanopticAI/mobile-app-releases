@@ -15,7 +15,7 @@
       "Data Schema: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/2.0.0-10"
     ],
     "issues": [
-      "Strict + Pixel mode can be unstable on low-memory devices; the app will attempt to reduce recording duration automatically.",
+      "Strict + Pixel mode can be unstable on low-memory devices; the app will attempt to reduce recording duration automatically, but could still have app crash sometimes.",
       "No Privacy Policy and Terms & Conditions statements yet."
     ]
   },
