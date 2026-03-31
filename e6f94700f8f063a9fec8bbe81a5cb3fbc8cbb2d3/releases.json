@@ -1,5 +1,23 @@
 [
   {
+    "name": "iOS Commerical DC App",
+    "version": "2.0.0",
+    "buildNumber": "10",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Release date: 2026-03-31",
+      "Authentication: Email/password sign-in, Forgot Password (OTP), optional 'Remember me' stored in Keychain, session/account expiry handling, and account lockouts.",
+      "Data collection: 14-step flow with personal info, health conditions, medication history, device & environment info, reference measurements, scan instructions, scan & record, and results.",
+      "Collection modes: Data Collection Modes (Video / Pixel), Precision Modes (Relaxed / Strict).",
+      "Data & security: Session files are encrypted with AES-256. App uses an S3-first upload strategy, along with local storage in Files app."
+    ],
+    "issues": [
+      "Strict + Pixel mode can be unstable on low-memory devices; the app will attempt to reduce recording duration automatically."
+    ]
+  },
+  {
     "name": "FDA App",
     "version": "1.6.1",
     "buildNumber": "b6",
@@ -1446,7 +1464,7 @@
     ]
   },
   {
-    "name": "Commerical DC App",
+    "name": "iOS Commerical DC App",
     "version": "1.5.0",
     "buildNumber": "9",
     "tagPrefix": "commercial-dc-app",
@@ -1485,7 +1503,7 @@
     ]
   },
   {
-    "name": "Commerical DC App",
+    "name": "iOS Commerical DC App",
     "version": "1.4.1",
     "buildNumber": "8",
     "tagPrefix": "commercial-dc-app",
@@ -1562,7 +1580,7 @@
     ]
   },
   {
-    "name": "Commerical DC App",
+    "name": "iOS Commerical DC App",
     "version": "1.4.1",
     "buildNumber": "7",
     "tagPrefix": "commercial-dc-app",
@@ -1583,7 +1601,7 @@
     ]
   },
   {
-    "name": "Commerical DC App",
+    "name": "iOS Commerical DC App",
     "version": "1.3.0",
     "buildNumber": "5",
     "tagPrefix": "commercial-dc-app",
@@ -1601,7 +1619,7 @@
     ]
   },
   {
-    "name": "Commerical DC App",
+    "name": "iOS Commerical DC App",
     "version": "1.2.1",
     "buildNumber": "4",
     "tagPrefix": "commercial-dc-app",
@@ -1622,7 +1640,7 @@
     ]
   },
   {
-    "name": "Commerical DC App",
+    "name": "iOS Commerical DC App",
     "version": "1.1.0",
     "buildNumber": "2",
     "tagPrefix": "commercial-dc-app",
@@ -1676,7 +1694,7 @@
     "issues": []
   },
   {
-    "name": "Commerical DC App",
+    "name": "iOS Commerical DC App",
     "version": "1.0.0",
     "buildNumber": "1",
     "tagPrefix": "commercial-dc-app",
