@@ -9,7 +9,7 @@
     "changes": [
       "Release date: 2026-03-31",
       "Authentication: Email/password sign-in, Forgot Password (OTP), optional 'Remember me' stored in Keychain, session/account expiry handling, and account lockouts.",
-      "Data collection: 14-step flow with personal info, health conditions, medication history, device & environment info, reference measurements, scan instructions, scan & record, and results.",
+      "Data collection & Vitals SDK Scanning: 14-step flow with adjust volume guide, surveys (personal info, health conditions, medication history, device & environment info, reference measurements, personal conditions), scan instructions, scan & record, and results.",
       "Collection modes: Data Collection Modes (Video / Pixel), Precision Modes (Relaxed / Strict).",
       "Data & security: Session files are encrypted with AES-256. App uses an S3-first upload strategy, along with local storage in Files app.",
       "Data Schema: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/2.0.0-10"
