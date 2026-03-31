@@ -14,7 +14,8 @@
       "Data & security: Session files are encrypted with AES-256. App uses an S3-first upload strategy, along with local storage in Files app."
     ],
     "issues": [
-      "Strict + Pixel mode can be unstable on low-memory devices; the app will attempt to reduce recording duration automatically."
+      "Strict + Pixel mode can be unstable on low-memory devices; the app will attempt to reduce recording duration automatically.",
+      "No Privacy Policy and Terms & Conditions statements yet."
     ]
   },
   {
