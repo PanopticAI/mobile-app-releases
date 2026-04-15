@@ -1,5 +1,37 @@
 [
   {
+    "name": "iOS Commerical DC App",
+    "version": "2.1.0",
+    "buildNumber": "11",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Release date: 2026-04-15",
+      "Use 60s scan duration on high-RAM devices; fallback to 30s on low-RAM devices (< 6 GB).",
+      "Include seconds in the collection ID format: use yyyyMMdd_HHmmss (was yyyyMMdd_HHmm).",
+      "Add diabetes-type questions to the participant survey and persist the new data field. ",
+      "Rename reference measurement fields: pulseRate → heartRate , bloodPressureSystolic → systolicBloodPressure , bloodPressureDiastolic → diastolicBloodPressure .",
+      "Replace numeric Unix timestamps startTime / endTime with ISO 8601 strings collectionDatetime / endCollectionDatetime in metadata.",
+      "Move accelerometerData and gyroscopeData into deviceInfo and change samples from arrays to objects: {x, y, z, timestamp} .",
+      "Replace bpMonitorModel with referenceDevices (list of device records containing brand, model, and measured vital signs); update Device Info UI accordingly.",
+      "Move gps into deviceInfo (previously top-level).",
+      "Promote timeZone to top-level metadata (previously under deviceInfo ).",
+      "Add a camera test in Scan Mode settings and show a prompt directing users to run it upon starting data collection.",
+      "Clarify scan instructions to indicate the correct timing for starting the 3rd reference measurement.",
+      "Embed the performance warning UI inside the camera test result popup instead of in the Scan Mode settings page.",
+      "Removed low-RAM popup in Scan Instruction page. Forced user to see that warning in Scan Mode page instead.",
+      "Improved descriptions of scan modes",
+      "Fixed grammar mistakes, and minor wordings different with Figma",
+      "Added Terms & Condtiions and Privacy Policy",
+      "Instructions For Use (Internal) located in",
+      "IFU with Data Schema: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/2.1.0-11"
+    ],
+    "issues": [
+      "Strict + Pixel mode can be unstable on low-memory devices; the app will attempt to reduce recording duration automatically, but could still have app crash sometimes."
+    ]
+  },
+  {
     "name": "QMH Survey App",
     "version": "1.9.0",
     "buildNumber": "13",
