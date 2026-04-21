@@ -1,6 +1,22 @@
 [
   {
     "name": "iOS Commerical DC App",
+    "version": "2.1.1",
+    "buildNumber": "12",
+    "tagPrefix": "commercial-dc-app",
+    "tagDelimiter": "-",
+    "plist": "CommercialDCApp.plist",
+    "changes": [
+      "Release date: 2026-04-21",
+      "Added support for iTunes file sharing.",
+      "IFU with Data Schema: https://github.com/PanopticAI/ios-data-collection-app-commercial/releases/tag/2.1.1-12"
+    ],
+    "issues": [
+      "Strict + Pixel mode can be unstable on low-memory devices; the app will attempt to reduce recording duration automatically, but could still have app crash sometimes."
+    ]
+  },
+  {
+    "name": "iOS Commerical DC App",
     "version": "2.1.0",
     "buildNumber": "11",
     "tagPrefix": "commercial-dc-app",
