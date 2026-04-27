@@ -8,7 +8,7 @@
     "plist": "DataCollectionApp.plist",
     "changes": [
       "Release date: 2026-04-27",
-      "Rebuilt v3.7.0-37.",
+      "Rebuilt v3.7.0-37 but updated copyright year from 2021-2025 to 2021-2026.",
       "Schema & DCAppAPI: https://github.com/PanopticAI/ios-data-collection-app/releases/tag/3.7.0-39-pai"
     ],
     "issues": [
