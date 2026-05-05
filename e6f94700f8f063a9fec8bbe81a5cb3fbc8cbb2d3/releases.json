@@ -1,5 +1,32 @@
 [
   {
+    "name": "MyVitals - Demo",
+    "version": "2.0.0",
+    "buildNumber": "22",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitalsB2B.plist",
+    "changes": [
+      "Release date: 2026-05-05",
+      "Updated to follow most of the latest Figma design.",
+      "Added 'Metrics Preference' (Healthcare / Insurance & Wellness / Custom) to control which vital signs are measured and shown.",
+      "Added 'Change Password' and 'Delete Account' in Settings.",
+      "Added conditional 'Medical History' step (smoking + parental hypertension) shown only when required by selected metrics.",
+      "Added two new risk metrics: 'Cardiovascular Risk' and 'Hypertension Risk'. Removed HRV-RMSSD.",
+      "Wellness now includes sub-scores (Cardiovascular, Respiratory, Mental, Physical) in a combined Wellness card.",
+      "User-profile fields (weight/height/waist) now shows only when needed by selected metrics.",
+      "Low scan quality no longer interrupts scanning; a low-quality notice appears on the Results page with options to view or retry.",
+      "Account expiry check moved earlier — now validated at app launch and at login success (no longer checked mid-scan).",
+      "Unexpected scan-error wording updated (if you see low scan quality error in scan page, that is an unexpected error, not low scan quality; the real low scan quality error is shown in result page).",
+      "Developer mode activation now shows a 'Developer Mode: ON' card in App Details page.",
+      "Support English, Traditional Chinese, and Simplified Chinese.",
+      "Updated T&C and privacy policy links pointing to our latest website."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "DC App - PAI",
     "version": "3.7.0",
     "buildNumber": "39",
