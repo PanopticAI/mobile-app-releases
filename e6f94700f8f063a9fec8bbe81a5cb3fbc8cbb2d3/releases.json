@@ -1,5 +1,28 @@
 [
   {
+    "name": "QMH Survey App",
+    "version": "1.9.0",
+    "buildNumber": "14",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-05-07",
+      "A build for GHK, QMHPAI-002 dataset.",
+      "Made patient ID optional to input.",
+      "Update Fitzpatrick Skin Type color spectrum from gradient to single color.",
+      "Updated Chinese translation for Latino/Hispanic.",
+      "Reordered satisfaction and comfort question order and section titles.",
+      "Added hasAnemia.",
+      "Removed monk, isHealthy, hypertensionStage, hasDiabetes, hasHyperlipidemia, takingMedication, isHeartMedication, isBloodPressureMedication, isBloodSugarMedication, isCholesterolMedication, sinusRhythm, sinusArrhythmia, prematureAtrialContractions, prematureVentricularContractions, chronicMeds, otherChronicDiseases.",
+      "Reordered Medical History Retrieved From Hospital section based on schema.",
+      "Data Schema: https://github.com/PanopticAI/ios-dc-app-survey/releases/tag/ghk_1.9.0-14"
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "2.0.0",
     "buildNumber": "22",
@@ -100,6 +123,7 @@
     "plist": "DCSurveyApp.plist",
     "changes": [
       "Release date: 2026-04-08",
+      "A build for GHK, QMHPAI-002 dataset.",
       "Removed instruction music section."
     ],
     "issues": [
@@ -170,7 +194,7 @@
     "plist": "DCSurveyApp.plist",
     "changes": [
       "Release date: 2026-03-11",
-      "A build for GHK.",
+      "A build for GHK, QMHPAI-002 dataset.",
       "Updated barcode scanning feature to handle patient number in JSON format."
     ],
     "issues": [
