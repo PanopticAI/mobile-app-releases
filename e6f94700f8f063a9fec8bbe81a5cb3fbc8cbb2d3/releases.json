@@ -12,7 +12,7 @@
       "Added back hasDiabetes, hasHyperlipidemia.",
       "Added hasArrhythmia.",
       "Updated atrialFibrillation to hasAtrialFibrillation",
-      "Removed alphaBlocker, betaBlocker, caChannelBlocker, aceiArb, nitrate",
+      "Removed hasHeartDisease, alphaBlocker, betaBlocker, caChannelBlocker, aceiArb, nitrate",
       "Reordered medical history retrieved from hospital section",
       "Data Schema: https://github.com/PanopticAI/ios-dc-app-survey/releases/tag/ghk_1.9.0-16"
     ],
