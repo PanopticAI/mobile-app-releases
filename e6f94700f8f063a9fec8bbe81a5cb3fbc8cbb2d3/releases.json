@@ -10,7 +10,6 @@
       "Release date: 2026-05-07",
       "A build for GHK, QMHPAI-002 dataset.",
       "Added back hasDiabetes, hasHyperlipidemia.",
-      "Added hasArrhythmia.",
       "Updated atrialFibrillation to hasAtrialFibrillation",
       "Removed hasHeartDisease, alphaBlocker, betaBlocker, caChannelBlocker, aceiArb, nitrate",
       "Reordered medical history retrieved from hospital section",
