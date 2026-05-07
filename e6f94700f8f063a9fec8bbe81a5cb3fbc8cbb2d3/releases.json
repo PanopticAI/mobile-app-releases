@@ -2,6 +2,24 @@
   {
     "name": "QMH Survey App",
     "version": "1.9.0",
+    "buildNumber": "15",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-05-07",
+      "A build for GHK, QMHPAI-002 dataset.",
+      "Removed statins.",
+      "Added hasArrhythmia.",
+      "Data Schema: https://github.com/PanopticAI/ios-dc-app-survey/releases/tag/ghk_1.9.0-15"
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "QMH Survey App",
+    "version": "1.9.0",
     "buildNumber": "14",
     "tagPrefix": "qmh-app",
     "tagDelimiter": "-",
