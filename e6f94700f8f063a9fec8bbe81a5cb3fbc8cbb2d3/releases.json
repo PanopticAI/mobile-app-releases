@@ -1,6 +1,21 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "2.0.2",
+    "buildNumber": "24",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitalsB2B.plist",
+    "changes": [
+      "Release date: 2026-05-19",
+      "Added missing account expiry checking."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "2.0.1",
     "buildNumber": "23",
     "tagPrefix": "my-vitals-demo",
