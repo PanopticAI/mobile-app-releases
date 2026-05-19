@@ -1,6 +1,22 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "2.0.3",
+    "buildNumber": "25",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitalsB2B.plist",
+    "changes": [
+      "Release date: 2026-05-19",
+      "Fixed scan error popup shown even after deactivated the camera.",
+      "Fixed missing Chinese translation in some pages (a bug since 2.0.1-23)."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "2.0.2",
     "buildNumber": "24",
     "tagPrefix": "my-vitals-demo",
