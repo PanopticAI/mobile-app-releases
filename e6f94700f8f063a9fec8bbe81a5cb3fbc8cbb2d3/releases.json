@@ -235,7 +235,7 @@
     ]
   },
   {
-    "name": "FDA App",
+    "name": "FDA App (Demo)",
     "version": "1.6.1",
     "buildNumber": "b6",
     "tagPrefix": "fda-app",
@@ -251,7 +251,7 @@
     ]
   },
   {
-    "name": "FDA App",
+    "name": "FDA App (Demo)",
     "version": "1.6.1",
     "buildNumber": "b5",
     "tagPrefix": "fda-app",
@@ -286,7 +286,7 @@
     ]
   },
   {
-    "name": "FDA App",
+    "name": "FDA App (Demo)",
     "version": "1.6.1",
     "buildNumber": "b4",
     "tagPrefix": "fda-app",
@@ -302,7 +302,7 @@
     ]
   },
   {
-    "name": "FDA App",
+    "name": "FDA App (Demo)",
     "version": "1.6.1",
     "buildNumber": "b3",
     "tagPrefix": "fda-app",
@@ -319,7 +319,7 @@
     ]
   },
   {
-    "name": "FDA App",
+    "name": "FDA App (Demo)",
     "version": "1.6.1",
     "buildNumber": "b2",
     "tagPrefix": "fda-app",
@@ -443,7 +443,7 @@
     ]
   },
   {
-    "name": "FDA App",
+    "name": "FDA App (Demo)",
     "version": "1.6.1",
     "buildNumber": "b1",
     "tagPrefix": "fda-app",
