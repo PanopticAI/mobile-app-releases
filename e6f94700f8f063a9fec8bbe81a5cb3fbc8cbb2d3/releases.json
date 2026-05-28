@@ -1,6 +1,21 @@
 [
   {
     "name": "MyVitals - Demo",
+    "version": "2.0.4",
+    "buildNumber": "26",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitalsB2B.plist",
+    "changes": [
+      "Release date: 2026-05-28",
+      "Fixed onboarding page's bottom safe area to have white background on iPad."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals - Demo",
     "version": "2.0.3",
     "buildNumber": "25",
     "tagPrefix": "my-vitals-demo",
