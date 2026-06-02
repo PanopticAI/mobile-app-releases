@@ -1,5 +1,27 @@
 [
   {
+    "name": "QMH Survey App",
+    "version": "2.0.0",
+    "buildNumber": "17",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-06-02",
+      "A build for GHK, QMHPAI-002 dataset.",
+      "Revamped to follow MyVitals design style.",
+      "Split fill in survey and update survey into 2 flows.",
+      "Added locale switcher in settings page.",
+      "Added input validation with real-time error message, and trim start and end whitespaces for text input.",
+      "Added data preview page after all information are filled in, user can go back and update data if any data was incorrectly input.",
+      "Added forgot password, change password, first login reset password, and account expiry checking.",
+      "Updated unit of respiratory rate to breaths/1.5min on UI."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "2.0.4",
     "buildNumber": "26",
