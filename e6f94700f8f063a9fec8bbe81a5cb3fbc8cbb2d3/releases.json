@@ -1,5 +1,22 @@
 [
   {
+    "name": "MyVitals - Demo",
+    "version": "2.1.0",
+    "buildNumber": "27",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitalsB2B.plist",
+    "changes": [
+      "Release date: 2026-06-09",
+      "Added 'Metrics Values Preference' settings for controlling whether to show values when metric-specific signal quality is poor.",
+      "Added alert icon for all metrics when overall signal quality is low.",
+      "Removed demographic sections in result page."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "QMH Survey App",
     "version": "2.0.0",
     "buildNumber": "17",
