@@ -1,5 +1,21 @@
 [
   {
+    "name": "QMH Survey App",
+    "version": "2.1.0",
+    "buildNumber": "18",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-06-09",
+      "Added section navigation bar in survey flow.",
+      "Updated error checking UI/UX logic in survey flow."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "2.1.0",
     "buildNumber": "27",
