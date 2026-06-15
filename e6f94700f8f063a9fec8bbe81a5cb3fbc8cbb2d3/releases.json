@@ -1,13 +1,28 @@
 [
   {
     "name": "QMH Survey App",
+    "version": "2.1.1",
+    "buildNumber": "19",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-06-15",
+      "Fixed error UI for subject conditions dropdowns in survey flow."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "QMH Survey App",
     "version": "2.1.0",
     "buildNumber": "18",
     "tagPrefix": "qmh-app",
     "tagDelimiter": "-",
     "plist": "DCSurveyApp.plist",
     "changes": [
-      "Release date: 2026-06-09",
+      "Release date: 2026-06-15",
       "Added section navigation bar in survey flow.",
       "Updated error checking UI/UX logic in survey flow."
     ],
