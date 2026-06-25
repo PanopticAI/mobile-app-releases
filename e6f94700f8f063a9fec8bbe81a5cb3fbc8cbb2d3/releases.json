@@ -8,6 +8,7 @@
     "plist": "DCSurveyApp.plist",
     "changes": [
       "Release date: 2026-06-25",
+      "A build for GHK, QMHPAI-002 dataset.",
       "Added section and question number in both survey and update data flows."
     ],
     "issues": [
@@ -23,6 +24,7 @@
     "plist": "DCSurveyApp.plist",
     "changes": [
       "Release date: 2026-06-15",
+      "A build for GHK, QMHPAI-002 dataset.",
       "Fixed error UI for subject conditions dropdowns in survey flow."
     ],
     "issues": [
@@ -38,6 +40,7 @@
     "plist": "DCSurveyApp.plist",
     "changes": [
       "Release date: 2026-06-15",
+      "A build for GHK, QMHPAI-002 dataset.",
       "Added section navigation bar in survey flow.",
       "Updated error checking UI/UX logic in survey flow."
     ],
