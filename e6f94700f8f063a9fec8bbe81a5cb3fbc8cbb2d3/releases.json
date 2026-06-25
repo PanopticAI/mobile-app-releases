@@ -1,6 +1,21 @@
 [
   {
     "name": "QMH Survey App",
+    "version": "2.2.0",
+    "buildNumber": "20",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-06-25",
+      "Added section and question number in both survey and update data flows."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "QMH Survey App",
     "version": "2.1.1",
     "buildNumber": "19",
     "tagPrefix": "qmh-app",
