@@ -8,7 +8,7 @@
     "plist": "MyVitalsB2B.plist",
     "changes": [
       "Release date: 2026-07-10",
-      "Updated to have vital sign values shown on poor signal quality alert by default.",
+      "Updated the default value for the 'Metrics Values Preference' settings as 'shown' instead of 'hide'.",
       "Updated the result page image on the 2nd onboarding screen to match the latest design."
     ],
     "issues": [
