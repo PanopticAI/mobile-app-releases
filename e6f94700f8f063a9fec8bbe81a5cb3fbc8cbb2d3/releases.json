@@ -1,5 +1,21 @@
 [
   {
+    "name": "MyVitals - Demo",
+    "version": "2.1.1",
+    "buildNumber": "28",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitalsB2B.plist",
+    "changes": [
+      "Release date: 2026-07-10",
+      "Updated to have vital sign values shown on poor signal quality alert by default.",
+      "Updated the result page image on the 2nd onboarding screen to match the latest design."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "QMH Survey App",
     "version": "2.2.0",
     "buildNumber": "20",
