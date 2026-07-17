@@ -1,5 +1,20 @@
 [
   {
+    "name": "QMH Survey App",
+    "version": "2.3.0",
+    "buildNumber": "21",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-07-17",
+      "Added 'Operation Time (Manual)' field in Notes survey section."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "2.1.1",
     "buildNumber": "28",
