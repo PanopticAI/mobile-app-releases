@@ -2,6 +2,20 @@
   {
     "name": "MyVitals (iOS Demo)",
     "version": "1.0.0",
+    "buildNumber": "2",
+    "tagPrefix": "myvitals-ios-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Fixed report PDF QR code base URL"
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals (iOS Demo)",
+    "version": "1.0.0",
     "buildNumber": "1",
     "tagPrefix": "myvitals-ios-demo",
     "tagDelimiter": "-",
