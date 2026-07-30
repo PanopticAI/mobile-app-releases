@@ -1,5 +1,19 @@
 [
   {
+    "name": "MyVitals (iOS Demo)",
+    "version": "1.0.0",
+    "buildNumber": "1",
+    "tagPrefix": "myvitals-ios-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "First release of migration from myvitals.panoptic.ai to iOS App"
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "DC App - PAI",
     "version": "3.7.0",
     "buildNumber": "40",
