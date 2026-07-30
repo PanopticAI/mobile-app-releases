@@ -2,6 +2,20 @@
   {
     "name": "MyVitals (iOS Demo)",
     "version": "1.0.0",
+    "buildNumber": "3",
+    "tagPrefix": "myvitals-ios-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Lower iOS deployment target"
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals (iOS Demo)",
+    "version": "1.0.0",
     "buildNumber": "2",
     "tagPrefix": "myvitals-ios-demo",
     "tagDelimiter": "-",
