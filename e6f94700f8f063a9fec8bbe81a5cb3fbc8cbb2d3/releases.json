@@ -2,6 +2,23 @@
   {
     "name": "MyVitals (iOS Demo)",
     "version": "1.0.0",
+    "buildNumber": "4",
+    "tagPrefix": "myvitals-ios-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Fixed splash screen icon resolution on iPad",
+      "Turned on blink detection",
+      "Enabled landscape mode on iPad",
+      "Fixed real-time estimation to turn off during the idle stage"
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
+    "name": "MyVitals (iOS Demo)",
+    "version": "1.0.0",
     "buildNumber": "3",
     "tagPrefix": "myvitals-ios-demo",
     "tagDelimiter": "-",
