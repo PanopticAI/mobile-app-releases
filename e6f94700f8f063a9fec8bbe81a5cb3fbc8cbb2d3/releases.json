@@ -2,6 +2,29 @@
   {
     "name": "MyVitals (iOS Demo)",
     "version": "1.0.0",
+    "buildNumber": "5",
+    "tagPrefix": "myvitals-ios-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Updated error message when the scan is interrupted by closing the app",
+      "Updated blink detection error message and flow",
+      "Fixed scan unable to be restarted after the error message showed up",
+      "Fixed stress level decimal place in the report PDF",
+      "Fixed splash screen logo size on iPad",
+      "Fixed facial skin age icon",
+      "Updated CTA button in the error message for no internet connection to \"Retry\""
+    ],
+    "issues": [
+      "Font size adjustment",
+      "Heart rate animation position not centered vertically",
+      "iPad page transition animation",
+      "Realtime estimation animation update"
+    ]
+  },
+  {
+    "name": "MyVitals (iOS Demo)",
+    "version": "1.0.0",
     "buildNumber": "4",
     "tagPrefix": "myvitals-ios-demo",
     "tagDelimiter": "-",
