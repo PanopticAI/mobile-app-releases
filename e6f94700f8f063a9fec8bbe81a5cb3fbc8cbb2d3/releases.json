@@ -2,6 +2,27 @@
   {
     "name": "MyVitals (iOS Demo)",
     "version": "1.0.0",
+    "buildNumber": "6",
+    "tagPrefix": "myvitals-ios-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitals.plist",
+    "changes": [
+      "Fixed repeated failed scan",
+      "Remove the space above the steps tracker on result page",
+      "Fixed unable to restart scan",
+      "Fixed heart animation position to be vertically centered",
+      "Fixed height of password container changing when visibility is changed",
+      "Fixed screen transition on iPad",
+      "Adjusted font size",
+      "Updated animation and graphics",
+      "Fixed error after blink detection"
+    ],
+    "issues": [
+    ]
+  },
+  {
+    "name": "MyVitals (iOS Demo)",
+    "version": "1.0.0",
     "buildNumber": "5",
     "tagPrefix": "myvitals-ios-demo",
     "tagDelimiter": "-",
