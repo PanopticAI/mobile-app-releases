@@ -1,5 +1,20 @@
 [
   {
+    "name": "MyVitals - Demo",
+    "version": "2.1.1",
+    "buildNumber": "29",
+    "tagPrefix": "my-vitals-demo",
+    "tagDelimiter": "-",
+    "plist": "MyVitalsB2B.plist",
+    "changes": [
+      "Release date: 2026-10-06",
+      "Rebuilt v2.1.1-28."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "MyVitals (iOS Demo)",
     "version": "1.0.0",
     "buildNumber": "6",
@@ -17,8 +32,7 @@
       "Updated animation and graphics",
       "Fixed error after blink detection"
     ],
-    "issues": [
-    ]
+    "issues": []
   },
   {
     "name": "MyVitals (iOS Demo)",
