@@ -1,5 +1,20 @@
 [
   {
+    "name": "QMH Survey App",
+    "version": "2.3.0",
+    "buildNumber": "22",
+    "tagPrefix": "qmh-app",
+    "tagDelimiter": "-",
+    "plist": "DCSurveyApp.plist",
+    "changes": [
+      "Release date: 2026-10-14",
+      "Rebuilt v2.3.0-21."
+    ],
+    "issues": [
+      "No known issues."
+    ]
+  },
+  {
     "name": "MyVitals - Demo",
     "version": "2.1.1",
     "buildNumber": "29",
